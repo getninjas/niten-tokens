@@ -1,0 +1,9 @@
+# local development
+.DS_Store
+
+# project artefacts
+node_modules
+.npm
+*.log
+coverage
+.nyc_output
