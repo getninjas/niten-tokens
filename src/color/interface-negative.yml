@@ -1,0 +1,26 @@
+---
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-interface-negative-dark
+    value: '{!color-interface-negative-dark}'
+    meta:
+      friendlyName: Color Interface Negative Dark
+    category: color-interface-negative
+
+  - name: color-interface-negative-medium
+    value: '{!color-interface-negative-medium}'
+    meta:
+      friendlyName: Color Interface Negative Medium
+    category: color-interface-negative
+
+  - name: color-interface-negative-light
+    value: '{!color-interface-negative-light}'
+    meta:
+      friendlyName: Color Interface Negative Light
+    category: color-interface-negative

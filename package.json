@@ -1,0 +1,33 @@
+{
+  "name": "niten-tokens",
+  "version": "1.0.0",
+  "description": "Design System Tokens of GetNinjas",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ios": "theo src/tokens.yml --transform ios --format ios.json --dest dist",
+    "build:android": "theo src/tokens.yml --transform android --format android.xml --dest dist",
+    "build:web": "theo src/tokens.yml --transform web --format scss --dest dist",
+    "build:css": "theo src/tokens.yml --transform web --format cssmodules.css --dest dist",
+    "build": "concurrently npm:build:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getninjas/niten-tokens.git"
+  },
+  "keywords": [
+    "tokens",
+    "design tokens",
+    "design system"
+  ],
+  "author": "GetNinjas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getninjas/niten-tokens/issues"
+  },
+  "homepage": "https://github.com/getninjas/niten-tokens#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "theo": "^8.1.3"
+  }
+}

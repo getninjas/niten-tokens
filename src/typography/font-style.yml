@@ -1,0 +1,10 @@
+---
+global:
+  type: string
+  category: typography
+
+props:
+  - name: font-style-quote
+    value: "italic"
+    type: string
+    category: font-style

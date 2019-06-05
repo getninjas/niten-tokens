@@ -1,0 +1,26 @@
+---
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-brand-first-dark
+    value: '{!color-brand-first-dark}'
+    meta:
+      friendlyName: Color Brand First Dark
+    category: color-brand-first
+
+  - name: color-brand-first-medium
+    value: '{!color-brand-first-medium}'
+    meta:
+      friendlyName: Color Brand First Medium
+    category: color-brand-first
+
+  - name: color-brand-first-light
+    value: '{!color-brand-first-light}'
+    meta:
+      friendlyName: Color Brand First Light
+    category: color-brand-first

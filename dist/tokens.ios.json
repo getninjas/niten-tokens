@@ -1,0 +1,586 @@
+{
+  "properties": [
+    {
+      "type": "string",
+      "category": "border-style",
+      "name": "borderStyleDefault",
+      "value": "solid"
+    },
+    {
+      "type": "unit",
+      "category": "border-width",
+      "name": "borderWidthNone",
+      "value": 0
+    },
+    {
+      "type": "unit",
+      "category": "border-width",
+      "name": "borderWidthThin",
+      "value": "1px"
+    },
+    {
+      "type": "unit",
+      "category": "border-width",
+      "name": "borderWidthThick",
+      "value": "2px"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-first",
+      "name": "colorBrandFirstDark",
+      "value": "rgb(0, 0, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-first",
+      "name": "colorBrandFirstMedium",
+      "value": "rgb(87, 87, 87)"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-first",
+      "name": "colorBrandFirstLight",
+      "value": "rgb(255, 255, 255)"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-second",
+      "name": "colorBrandSecondDark",
+      "value": "rgb(97, 86, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-second",
+      "name": "colorBrandSecondMedium",
+      "value": "rgb(255, 234, 82)"
+    },
+    {
+      "type": "color",
+      "category": "color-brand-second",
+      "name": "colorBrandSecondLight",
+      "value": "rgb(255, 252, 230)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-action",
+      "name": "colorInterfaceActionDark",
+      "value": "rgb(25, 92, 169)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-action",
+      "name": "colorInterfaceActionMedium",
+      "value": "rgb(0, 157, 237)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-action",
+      "name": "colorInterfaceActionLight",
+      "value": "rgb(255, 252, 230)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-alert",
+      "name": "colorInterfaceAlertDark",
+      "value": "rgb(97, 86, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-alert",
+      "name": "colorInterfaceAlertMedium",
+      "value": "rgb(255, 214, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-alert",
+      "name": "colorInterfaceAlertLight",
+      "value": "rgb(255, 252, 230)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-content",
+      "name": "colorInterfaceContentDark",
+      "value": "rgb(0, 0, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-content",
+      "name": "colorInterfaceContentMedium",
+      "value": "rgb(87, 87, 87)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-content",
+      "name": "colorInterfaceContentLight",
+      "value": "rgb(255, 255, 255)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-highlight",
+      "name": "colorInterfaceHighlightDark",
+      "value": "rgb(83, 25, 169)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-highlight",
+      "name": "colorInterfaceHighlightMedium",
+      "value": "rgb(151, 82, 255)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-highlight",
+      "name": "colorInterfaceHighlightLight",
+      "value": "rgb(243, 235, 255)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-negative",
+      "name": "colorInterfaceNegativeDark",
+      "value": "rgb(180, 3, 0)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-negative",
+      "name": "colorInterfaceNegativeMedium",
+      "value": "rgb(255, 234, 82)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-negative",
+      "name": "colorInterfaceNegativeLight",
+      "value": "rgb(253, 236, 236)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-positive",
+      "name": "colorInterfacePositiveDark",
+      "value": "rgb(0, 101, 19)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-positive",
+      "name": "colorInterfacePositiveMedium",
+      "value": "rgb(37, 161, 89)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-positive",
+      "name": "colorInterfacePositiveLight",
+      "value": "rgb(234, 250, 241)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-shade",
+      "name": "colorInterfaceShadeDark",
+      "value": "rgb(222, 222, 222)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-shade",
+      "name": "colorInterfaceShadeMedium",
+      "value": "rgb(242, 242, 242)"
+    },
+    {
+      "type": "color",
+      "category": "color-interface-shade",
+      "name": "colorInterfaceShadeLight",
+      "value": "rgb(248, 248, 248)"
+    },
+    {
+      "type": "number",
+      "category": "opacity",
+      "name": "opacityTranslucent",
+      "value": "0.2"
+    },
+    {
+      "type": "number",
+      "category": "opacity",
+      "name": "opacityOpaque",
+      "value": "0.5"
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusNone",
+      "value": 0
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusS",
+      "value": "4px"
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusM",
+      "value": "8px"
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusL",
+      "value": "16px"
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusPill",
+      "value": "500px"
+    },
+    {
+      "type": "unit",
+      "category": "radius",
+      "name": "borderRadiusCircle",
+      "value": "1"
+    },
+    {
+      "type": "number",
+      "category": "shadow-offset-x",
+      "name": "shadowOffsetXDefault",
+      "value": 0
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel1Bottom",
+      "value": "2px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel2Bottom",
+      "value": "4px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel3Bottom",
+      "value": "12px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel1Top",
+      "value": "-2px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel2Top",
+      "value": "-4px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-offset-y",
+      "name": "shadowOffsetYLevel3Top",
+      "value": "-12px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-blur-radius",
+      "name": "shadowBlurRadiusLevel1",
+      "value": "4px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-blur-radius",
+      "name": "shadowBlurRadiusLevel2",
+      "value": "12px"
+    },
+    {
+      "type": "unit",
+      "category": "shadow-blur-radius",
+      "name": "shadowBlurRadiusLevel3",
+      "value": "24px"
+    },
+    {
+      "type": "number",
+      "category": "shadow-spread-radius",
+      "name": "shadowSpreadRadiusDefault",
+      "value": 0
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineXxxs",
+      "value": "8px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineXxs",
+      "value": "12px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineXs",
+      "value": "16px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineS",
+      "value": "24px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineM",
+      "value": "36px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineL",
+      "value": "48px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-inline",
+      "name": "spacingInlineXl",
+      "value": "60px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXxxs",
+      "value": "8px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXxs",
+      "value": "12px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXs",
+      "value": "16px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareS",
+      "value": "24px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareM",
+      "value": "36px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareL",
+      "value": "48px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXl",
+      "value": "60px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXxl",
+      "value": "84px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-square",
+      "name": "spacingSquareXxxl",
+      "value": "148px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-squish",
+      "name": "spacingSquishS",
+      "value": "12px 36px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-squish",
+      "name": "spacingSquishL",
+      "value": "16px 48px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXxxs",
+      "value": "8px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXxs",
+      "value": "12px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXs",
+      "value": "16px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackS",
+      "value": "24px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackM",
+      "value": "36px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackL",
+      "value": "48px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXl",
+      "value": "60px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXxl",
+      "value": "84px"
+    },
+    {
+      "type": "unit",
+      "category": "spacing-stack",
+      "name": "spacingStackXxxl",
+      "value": "148px"
+    },
+    {
+      "type": "string",
+      "category": "font-family",
+      "name": "fontFamilyDefault",
+      "value": "'Source Sans Pro', Helvetica, Arial, sans-serif"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightXxs",
+      "value": "22px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightXs",
+      "value": "24px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightS",
+      "value": "28px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightM",
+      "value": "32px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightL",
+      "value": "40px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightXl",
+      "value": "56px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightXxl",
+      "value": "68px"
+    },
+    {
+      "type": "unit",
+      "category": "font-line-height",
+      "name": "fontLineHeightEqual",
+      "value": "1"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeXxs",
+      "value": "14px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeXs",
+      "value": "16px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeS",
+      "value": "20px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeM",
+      "value": "34px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeL",
+      "value": "32px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeXl",
+      "value": "48px"
+    },
+    {
+      "type": "unit",
+      "category": "font-size",
+      "name": "fontSizeXxl",
+      "value": "60px"
+    },
+    {
+      "type": "string",
+      "category": "font-style",
+      "name": "fontStyleQuote",
+      "value": "italic"
+    },
+    {
+      "type": "number",
+      "category": "font-weight",
+      "name": "fontWeightLight",
+      "value": 300
+    },
+    {
+      "type": "number",
+      "category": "font-weight",
+      "name": "fontWeightRegular",
+      "value": 400
+    },
+    {
+      "type": "number",
+      "category": "font-weight",
+      "name": "fontWeightBold",
+      "value": 600
+    }
+  ]
+}

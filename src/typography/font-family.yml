@@ -1,0 +1,10 @@
+---
+global:
+  type: string
+  category: typography
+
+props:
+  - name: font-family-default
+    value: "'Source Sans Pro', Helvetica, Arial, sans-serif"
+    type: string
+    category: font-family

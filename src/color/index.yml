@@ -1,0 +1,15 @@
+---
+global:
+  type: colors
+  category: all
+
+imports:
+  - ./brand-first.yml
+  - ./brand-second.yml
+  - ./interface-action.yml
+  - ./interface-alert.yml
+  - ./interface-content.yml
+  - ./interface-highlight.yml
+  - ./interface-negative.yml
+  - ./interface-positive.yml
+  - ./interface-shade.yml

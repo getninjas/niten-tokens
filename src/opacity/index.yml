@@ -1,0 +1,12 @@
+---
+global:
+  type: number
+  category: opacity
+
+props:
+
+  - name: opacity-translucent
+    value: '0.2'
+
+  - name: opacity-opaque
+    value: '0.5'
