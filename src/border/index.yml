@@ -1,8 +1,0 @@
----
-global:
-  type: border
-  category: all
-
-imports:
-- ./style.yml
-- ./width.yml
