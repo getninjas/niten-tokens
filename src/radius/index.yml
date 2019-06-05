@@ -1,0 +1,26 @@
+##
+## All values are multiples of 4.
+##
+---
+global:
+  type: unit
+  category: radius
+
+props:
+  - name: border-radius-none
+    value: 0
+
+  - name: border-radius-s
+    value: '4px'
+
+  - name: border-radius-m
+    value: '8px'
+
+  - name: border-radius-l
+    value: '16px'
+
+  - name: border-radius-pill
+    value: '500px'
+
+  - name: border-radius-circle
+    value: '100%'

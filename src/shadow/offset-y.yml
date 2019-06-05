@@ -1,0 +1,33 @@
+##
+## All values are multiples of 4.
+##
+---
+global:
+  type: unit
+  category: shadow
+
+props:
+  - name: shadow-offset-y-level-1-bottom
+    value: '2px'
+    category: shadow-offset-y
+
+  - name: shadow-offset-y-level-2-bottom
+    value: '4px'
+    category: shadow-offset-y
+
+  - name: shadow-offset-y-level-3-bottom
+    value: '12px'
+    category: shadow-offset-y
+
+  - name: shadow-offset-y-level-1-top
+    value: '-2px'
+    category: shadow-offset-y
+
+  - name: shadow-offset-y-level-2-top
+    value: '-4px'
+    category: shadow-offset-y
+
+  - name: shadow-offset-y-level-3-top
+    value: '-12px'
+    category: shadow-offset-y
+

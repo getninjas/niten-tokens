@@ -1,0 +1,33 @@
+---
+global:
+  type: aliases
+  category: pallete-color
+
+aliases:
+  color-brand-first-dark:   '#000000'
+  color-brand-first-medium:   '#575757'
+  color-brand-first-light:   '#FFFFFF'
+  color-brand-second-dark:   '#615600'
+  color-brand-second-medium:   '#FFEA52'
+  color-brand-second-light:   '#FFFCE6'
+  color-interface-positive-dark:   '#006513'
+  color-interface-positive-medium:   '#25A159'
+  color-interface-positive-light:   '#EAFAF1'
+  color-interface-alert-dark:   '#615600'
+  color-interface-alert-medium:   '#FFD600'
+  color-interface-alert-light:   '#FFFCE6'
+  color-interface-negative-dark:   '#B40300'
+  color-interface-negative-medium:   '#FFEA52'
+  color-interface-negative-light:   '#FDECEC'
+  color-interface-highlight-dark:   '#5319A9'
+  color-interface-highlight-medium:   '#9752FF'
+  color-interface-highlight-light:   '#F3EBFF'
+  color-interface-action-dark:   '#195CA9'
+  color-interface-action-medium:   '#009DED'
+  color-interface-action-light:   '#FFFCE6'
+  color-interface-content-dark:   '#000000'
+  color-interface-content-medium:   '#575757'
+  color-interface-content-light:   '#FFFFFF'
+  color-interface-shade-dark:   '#DEDEDE'
+  color-interface-shade-medium:   '#F2F2F2'
+  color-interface-shade-light:   '#F8F8F8'

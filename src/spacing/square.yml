@@ -1,0 +1,44 @@
+---
+global:
+  type: unit
+  category: spacing
+
+imports:
+- ./aliases.yml
+
+props:
+  - name: spacing-square-xxxs
+    value: '{!spacing-xxxs}'
+    category: spacing-square
+
+  - name: spacing-square-xxs
+    value: '{!spacing-xxs}'
+    category: spacing-square
+
+  - name: spacing-square-xs
+    value: '{!spacing-xs}'
+    category: spacing-square
+
+  - name: spacing-square-s
+    value: '{!spacing-s}'
+    category: spacing-square
+
+  - name: spacing-square-m
+    value: '{!spacing-m}'
+    category: spacing-square
+
+  - name: spacing-square-l
+    value: '{!spacing-l}'
+    category: spacing-square
+
+  - name: spacing-square-xl
+    value: '{!spacing-xl}'
+    category: spacing-square
+
+  - name: spacing-square-xxl
+    value: '{!spacing-xxl}'
+    category: spacing-square
+
+  - name: spacing-square-xxxl
+    value: '{!spacing-xxxl}'
+    category: spacing-square
