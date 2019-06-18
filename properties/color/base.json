@@ -1,0 +1,53 @@
+{
+  "color": {
+    "brand": {
+      "first": {
+        "dark"  : { "value": "#000000" },
+        "medium": { "value": "#575757" },
+        "light" : { "value": "#FFFFFF" }
+      },
+      "second": {
+        "dark"  : { "value": "#615600" },
+        "medium": { "value": "#FFEA52" },
+        "light" : { "value": "#FFFCE6" }
+      }
+    },
+    "interface": {
+      "positive": {
+        "dark"  : { "value": "#006513" },
+        "medium": { "value": "#25A159" },
+        "light" : { "value": "#EAFAF1" }
+      },
+      "alert": {
+        "dark"  : { "value": "{color.brand.second.dark.value}" },
+        "medium": { "value": "{color.brand.second.medium.value}" },
+        "light" : { "value": "{color.brand.second.light.value}" }
+      },
+      "negative": {
+        "dark"  : { "value": "#B40300" },
+        "medium": { "value": "#FFEA52" },
+        "light" : { "value": "#FDECEC" }
+      },
+      "highlight": {
+        "dark"  : { "value": "#5319A9" },
+        "medium": { "value": "#9752FF" },
+        "light" : { "value": "#F3EBFF" }
+      },
+      "action": {
+        "dark"  : { "value": "#195CA9" },
+        "medium": { "value": "#009DED" },
+        "light" : { "value": "#FFFCE6" }
+      },
+      "content": {
+        "dark"  : { "value": "{color.brand.first.dark.value}" },
+        "medium": { "value": "{color.brand.first.medium.value}" },
+        "light" : { "value": "{color.brand.first.light.value}" }
+      },
+      "shade": {
+        "dark"  : { "value": "#DEDEDE" },
+        "medium": { "value": "#F2F2F2" },
+        "light" : { "value": "#F8F8F8" }
+      }
+    }
+  }
+}

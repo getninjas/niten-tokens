@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 18 Jun 2019 13:24:37 GMT
+-->
+<resources>
+  <color name="color_brand_first_dark">#ff000000</color>
+  <color name="color_brand_first_medium">#ff575757</color>
+  <color name="color_brand_first_light">#ffffffff</color>
+  <color name="color_brand_second_dark">#ff615600</color>
+  <color name="color_brand_second_medium">#ffffea52</color>
+  <color name="color_brand_second_light">#fffffce6</color>
+  <color name="color_interface_positive_dark">#ff006513</color>
+  <color name="color_interface_positive_medium">#ff25a159</color>
+  <color name="color_interface_positive_light">#ffeafaf1</color>
+  <color name="color_interface_alert_dark">#ff615600</color>
+  <color name="color_interface_alert_medium">#ffffea52</color>
+  <color name="color_interface_alert_light">#fffffce6</color>
+  <color name="color_interface_negative_dark">#ffb40300</color>
+  <color name="color_interface_negative_medium">#ffffea52</color>
+  <color name="color_interface_negative_light">#fffdecec</color>
+  <color name="color_interface_highlight_dark">#ff5319a9</color>
+  <color name="color_interface_highlight_medium">#ff9752ff</color>
+  <color name="color_interface_highlight_light">#fff3ebff</color>
+  <color name="color_interface_action_dark">#ff195ca9</color>
+  <color name="color_interface_action_medium">#ff009ded</color>
+  <color name="color_interface_action_light">#fffffce6</color>
+  <color name="color_interface_content_dark">#ff000000</color>
+  <color name="color_interface_content_medium">#ff575757</color>
+  <color name="color_interface_content_light">#ffffffff</color>
+  <color name="color_interface_shade_dark">#ffdedede</color>
+  <color name="color_interface_shade_medium">#fff2f2f2</color>
+  <color name="color_interface_shade_light">#fff8f8f8</color>
+  
+</resources>
