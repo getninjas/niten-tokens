@@ -2,51 +2,132 @@
   "color": {
     "brand": {
       "first": {
-        "dark"  : { "value": "#000000" },
-        "medium": { "value": "#575757" },
-        "light" : { "value": "#FFFFFF" }
+        "extra-dark": {
+          "value": "#000000"
+        },
+        "dark": {
+          "value": "#212121"
+        },
+        "medium": {
+          "value": "#575757"
+        },
+        "light": {
+          "value": "#FFFFFF"
+        }
       },
       "second": {
-        "dark"  : { "value": "#615600" },
-        "medium": { "value": "#FFEA52" },
-        "light" : { "value": "#FFFCE6" }
+        "extra-dark": {
+          "value": "#615600"
+        },
+        "dark": {
+          "value": "#FFEA52"
+        },
+        "medium": {
+          "value": "#FFF399"
+        },
+        "light": {
+          "value": "#FFFCE6"
+        }
       }
     },
     "interface": {
       "positive": {
-        "dark"  : { "value": "#006513" },
-        "medium": { "value": "#25A159" },
-        "light" : { "value": "#EAFAF1" }
+        "extra-dark": {
+          "value": "#006513"
+        },
+        "dark": {
+          "value": "#25A159"
+        },
+        "medium": {
+          "value": "#A0E9BE"
+        },
+        "light": {
+          "value": "#EAFAF1"
+        }
       },
       "alert": {
-        "dark"  : { "value": "{color.brand.second.dark.value}" },
-        "medium": { "value": "{color.brand.second.medium.value}" },
-        "light" : { "value": "{color.brand.second.light.value}" }
+        "extra-dark": {
+          "value": "#D78E00"
+        },
+        "dark": {
+          "value": "#F6BA50"
+        },
+        "medium": {
+          "value": "#FFF085"
+        },
+        "light": {
+          "value": "#FFFCE6"
+        }
       },
       "negative": {
-        "dark"  : { "value": "#B40300" },
-        "medium": { "value": "#FFEA52" },
-        "light" : { "value": "#FDECEC" }
+        "extra-dark": {
+          "value": "#B40300"
+        },
+        "dark": {
+          "value": "#F26565"
+        },
+        "medium": {
+          "value": "#F49999"
+        },
+        "light": {
+          "value": "#FDECEC"
+        }
       },
       "highlight": {
-        "dark"  : { "value": "#5319A9" },
-        "medium": { "value": "#9752FF" },
-        "light" : { "value": "#F3EBFF" }
+        "extra-dark": {
+          "value": "#5319A9"
+        },
+        "dark": {
+          "value": "#9A63EE"
+        },
+        "medium": {
+          "value": "#C8A3FF"
+        },
+        "light": {
+          "value": "#F3EBFF"
+        }
       },
       "action": {
-        "dark"  : { "value": "#195CA9" },
-        "medium": { "value": "#009DED" },
-        "light" : { "value": "#FFFCE6" }
+        "extra-dark": {
+          "value": "#195CA9"
+        },
+        "dark": {
+          "value": "#009DED"
+        },
+        "medium": {
+          "value": "#7AD6FF"
+        },
+        "light": {
+          "value": "#E5F7FF"
+        }
       },
       "content": {
-        "dark"  : { "value": "{color.brand.first.dark.value}" },
-        "medium": { "value": "{color.brand.first.medium.value}" },
-        "light" : { "value": "{color.brand.first.light.value}" }
+        "extra-dark": {
+          "value": "#000000"
+        },
+        "dark": {
+          "value": "#212121"
+        },
+        "medium": {
+          "value": "#575757"
+        },
+        "light": {
+          "value": "#FFFFFF"
+        }
       },
       "shade": {
-        "dark"  : { "value": "#DEDEDE" },
-        "medium": { "value": "#F2F2F2" },
-        "light" : { "value": "#F8F8F8" }
+        "extra-dark": {
+          "value": "#B2B2B2"
+        },
+        "dark": {
+          "value": "#DBDBDB"
+        },
+        "medium": {
+          "value": "#F2F2F2"
+        },
+        "light": {
+          "value": "#F8F8F8"
+        }
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "opacity": {
+    "translucent": {
+      "value": "0.35"
+    },
+    "opaque": {
+      "value": "0.6"
+    }
+  }
+}

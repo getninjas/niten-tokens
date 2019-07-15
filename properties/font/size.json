@@ -1,0 +1,27 @@
+{
+  "font": {
+    "size": {
+      "xxl": {
+        "value": "60px"
+      },
+      "xl": {
+        "value": "48px"
+      },
+      "l": {
+        "value": "32px"
+      },
+      "m": {
+        "value": "24px"
+      },
+      "s": {
+        "value": "20px"
+      },
+      "xs": {
+        "value": "16px"
+      },
+      "xxs": {
+        "value": "14px"
+      }
+    }
+  }
+}
