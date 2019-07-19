@@ -3,14 +3,14 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Mon, 15 Jul 2019 21:25:14 GMT
+// Generated on Fri, 19 Jul 2019 21:24:05 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
-    static let borderRadiusCircle = 100%
+    static let borderRadiusCircle = 50%
     static let borderRadiusL = 16px
     static let borderRadiusM = 8px
     static let borderRadiusNone = 0
