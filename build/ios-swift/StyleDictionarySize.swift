@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Tue, 30 Jul 2019 19:47:08 GMT
+// Generated on Tue, 30 Jul 2019 19:53:06 GMT
 //
 
 import UIKit
