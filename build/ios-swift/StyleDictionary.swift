@@ -3,23 +3,14 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Tue, 30 Jul 2019 12:37:48 GMT
+// Generated on Tue, 30 Jul 2019 14:24:58 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
-    static let borderRadiusCircle = 50%
-    static let borderRadiusL = 16px
-    static let borderRadiusM = 8px
-    static let borderRadiusNone = 0
-    static let borderRadiusPill = 160px
-    static let borderRadiusS = 4px
     static let borderStyleDefault = solid
-    static let borderWidthNone = 0
-    static let borderWidthThick = 2px
-    static let borderWidthThin = 1px
     static let colorBrandFirstDark = UIColor(red: 0.13, green: 0.13, blue: 0.13, alpha:1)
     static let colorBrandFirstExtraDark = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
     static let colorBrandFirstLight = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha:1)
@@ -57,44 +48,16 @@ public class StyleDictionary {
     static let colorInterfaceShadeLight = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha:1)
     static let colorInterfaceShadeMedium = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha:1)
     static let fontFamilyDefault = "'Source Sans Pro', Helvetica, Arial, sans-serif"
-    static let fontLineHeightEqual = "1"
-    static let fontLineHeightL = "40px"
-    static let fontLineHeightM = "32px"
-    static let fontLineHeightS = "28px"
-    static let fontLineHeightXl = "56px"
-    static let fontLineHeightXs = "24px"
-    static let fontLineHeightXxl = "68px"
-    static let fontLineHeightXxs = "22px"
-    static let fontSizeL = "32px"
-    static let fontSizeM = "24px"
-    static let fontSizeS = "20px"
-    static let fontSizeXl = "48px"
-    static let fontSizeXs = "16px"
-    static let fontSizeXxl = "60px"
-    static let fontSizeXxs = "14px"
     static let fontStyleQuote = "italic "
-    static let fontWeightBold = "600"
-    static let fontWeightLight = "300"
-    static let fontWeightRegular = "400"
-    static let opacityOpaque = 0.6
-    static let opacityTranslucent = 0.35
-    static let shadowBottomLevel1 = 0 2px 4px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.15
-    static let shadowBottomLevel2 = 0 4px 12px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.12
-    static let shadowBottomLevel3 = 0 12px 24px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.1
-    static let shadowOffsetXDefault = 0
-    static let shadowOffsetYBottomLevel1 = 2px
-    static let shadowOffsetYBottomLevel2 = 4px
-    static let shadowOffsetYBottomLevel3 = 12px
-    static let shadowOffsetYTopLevel1 = -2px
-    static let shadowOffsetYTopLevel2 = -4px
-    static let shadowOffsetYTopLevel3 = -12px
-    static let shadowRadiusBlurLevel1 = 4px
-    static let shadowRadiusBlurLevel2 = 12px
-    static let shadowRadiusBlurLevel3 = 24px
-    static let shadowRadiusSpreadDefault = 0
-    static let shadowTopLevel1 = 0 -2px 4px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.15
-    static let shadowTopLevel2 = 0 -4px 12px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.12
-    static let shadowTopLevel3 = 0 -12px 24px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.1
+    static let sizeBorderRadiusCircle = CGFloat(800.00)
+    static let sizeBorderRadiusL = CGFloat(256.00)
+    static let sizeBorderRadiusM = CGFloat(128.00)
+    static let sizeBorderRadiusNone = CGFloat(0.00)
+    static let sizeBorderRadiusPill = CGFloat(2560.00)
+    static let sizeBorderRadiusS = CGFloat(64.00)
+    static let sizeBorderWidthNone = CGFloat(0.00)
+    static let sizeBorderWidthThick = CGFloat(32.00)
+    static let sizeBorderWidthThin = CGFloat(16.00)
     static let sizeFontL = CGFloat(512.00)
     static let sizeFontM = CGFloat(384.00)
     static let sizeFontS = CGFloat(320.00)
@@ -102,13 +65,43 @@ public class StyleDictionary {
     static let sizeFontXs = CGFloat(256.00)
     static let sizeFontXxl = CGFloat(960.00)
     static let sizeFontXxs = CGFloat(224.00)
-    static let spacingL = 48px
-    static let spacingM = 36px
-    static let spacingS = 24px
-    static let spacingXl = 60px
-    static let spacingXs = 16px
-    static let spacingXxl = 84px
-    static let spacingXxs = 12px
-    static let spacingXxxl = 148px
-    static let spacingXxxs = 8px
+    static let sizeLineHeightEqual = CGFloat(16.00)
+    static let sizeLineHeightL = CGFloat(640.00)
+    static let sizeLineHeightM = CGFloat(512.00)
+    static let sizeLineHeightS = CGFloat(448.00)
+    static let sizeLineHeightXl = CGFloat(896.00)
+    static let sizeLineHeightXs = CGFloat(384.00)
+    static let sizeLineHeightXxl = CGFloat(1088.00)
+    static let sizeLineHeightXxs = CGFloat(352.00)
+    static let sizeOpacityOpaque = CGFloat(9.60)
+    static let sizeOpacityTranslucent = CGFloat(5.60)
+    static let sizeShadowBottomLevel1 = CGFloat(0.00) CGFloat(32.00) CGFloat(64.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.15
+    static let sizeShadowBottomLevel2 = CGFloat(0.00) CGFloat(64.00) CGFloat(192.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.12
+    static let sizeShadowBottomLevel3 = CGFloat(0.00) CGFloat(192.00) CGFloat(384.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.1
+    static let sizeShadowOffsetXDefault = CGFloat(0.00)
+    static let sizeShadowOffsetYBottomLevel1 = CGFloat(32.00)
+    static let sizeShadowOffsetYBottomLevel2 = CGFloat(64.00)
+    static let sizeShadowOffsetYBottomLevel3 = CGFloat(192.00)
+    static let sizeShadowOffsetYTopLevel1 = CGFloat(-32.00)
+    static let sizeShadowOffsetYTopLevel2 = CGFloat(-64.00)
+    static let sizeShadowOffsetYTopLevel3 = CGFloat(-192.00)
+    static let sizeShadowRadiusBlurLevel1 = CGFloat(64.00)
+    static let sizeShadowRadiusBlurLevel2 = CGFloat(192.00)
+    static let sizeShadowRadiusBlurLevel3 = CGFloat(384.00)
+    static let sizeShadowRadiusSpreadDefault = CGFloat(0.00)
+    static let sizeShadowTopLevel1 = CGFloat(0.00) CGFloat(-32.00) CGFloat(64.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.15
+    static let sizeShadowTopLevel2 = CGFloat(0.00) CGFloat(-64.00) CGFloat(192.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.12
+    static let sizeShadowTopLevel3 = CGFloat(0.00) CGFloat(-192.00) CGFloat(384.00) CGFloat(0.00) UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.1
+    static let sizeSpacingL = CGFloat(768.00)
+    static let sizeSpacingM = CGFloat(576.00)
+    static let sizeSpacingS = CGFloat(384.00)
+    static let sizeSpacingXl = CGFloat(960.00)
+    static let sizeSpacingXs = CGFloat(256.00)
+    static let sizeSpacingXxl = CGFloat(1344.00)
+    static let sizeSpacingXxs = CGFloat(192.00)
+    static let sizeSpacingXxxl = CGFloat(2368.00)
+    static let sizeSpacingXxxs = CGFloat(128.00)
+    static let sizeWeightBold = CGFloat(9600.00)
+    static let sizeWeightLight = CGFloat(4800.00)
+    static let sizeWeightRegular = CGFloat(6400.00)
 }
