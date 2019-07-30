@@ -32,7 +32,7 @@ StyleDictionary.registerTransformGroup({
   name: 'custom/web',
   // this is just to show a possibility, if you want to add a few transforms to a pre-defined group
   // (even so, we suggest to use the previous approach, which is more explicit and clear)
-  transforms: StyleDictionary.transformGroup['scss'].concat(['opacity/number', 'color/hexToRgba'])
+  transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", 'opacity/number', 'color/hexToRgba']
 });
 
 // APPLY THE CONFIGURATION
