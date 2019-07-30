@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Jul 2019 14:24:58 GMT
+ * Generated on Tue, 30 Jul 2019 19:47:08 GMT
  */
 
 $border-style-default: solid;
@@ -40,8 +40,8 @@ $color-interface-shade-extra-dark: #b2b2b2;
 $color-interface-shade-dark: #dbdbdb;
 $color-interface-shade-medium: #f2f2f2;
 $color-interface-shade-light: #f8f8f8;
-$font-family-default: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-style-quote: italic ;
+$size-opacity-translucent: 0.35rem;
+$size-opacity-opaque: 0.6rem;
 $size-border-radius-none: 0rem;
 $size-border-radius-s: 4rem;
 $size-border-radius-m: 8rem;
@@ -69,8 +69,6 @@ $size-line-height-equal: 1rem;
 $size-weight-light: 300rem;
 $size-weight-regular: 400rem;
 $size-weight-bold: 600rem;
-$size-opacity-translucent: 0.35rem;
-$size-opacity-opaque: 0.6rem;
 $size-shadow-offset-y-top-level-1: -2rem;
 $size-shadow-offset-y-top-level-2: -4rem;
 $size-shadow-offset-y-top-level-3: -12rem;
@@ -97,3 +95,5 @@ $size-spacing-l: 48rem;
 $size-spacing-xl: 60rem;
 $size-spacing-xxl: 84rem;
 $size-spacing-xxxl: 148rem;
+$font-family-default: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-style-quote: italic ;
