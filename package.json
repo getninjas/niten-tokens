@@ -4,7 +4,7 @@
   "description": "Design System Tokens of GetNinjas",
   "main": "",
   "scripts": {
-    "build": "node_modules/.bin/style-dictionary build",
+    "build": "node ./build.js",
     "clean": "rm -rf build"
   },
   "repository": {
