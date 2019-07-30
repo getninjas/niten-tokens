@@ -22,6 +22,43 @@
       "xxs": {
         "value": "14px"
       }
+    },
+    "line-height": {
+      "xxl": {
+        "value": "68px"
+      },
+      "xl": {
+        "value": "56px"
+      },
+      "l": {
+        "value": "40px"
+      },
+      "m": {
+        "value": "32px"
+      },
+      "s": {
+        "value": "28px"
+      },
+      "xs": {
+        "value": "24px"
+      },
+      "xxs": {
+        "value": "22px"
+      },
+      "equal": {
+        "value": "1"
+      }
+    },
+    "weight": {
+      "light": {
+        "value": "300"
+      },
+      "regular": {
+        "value": "400"
+      },
+      "bold": {
+        "value": "600"
+      }
     }
   }
 }
