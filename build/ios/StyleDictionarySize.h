@@ -2,10 +2,17 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Fri, 19 Jul 2019 21:24:05 GMT
+// Generated on Tue, 30 Jul 2019 12:37:48 GMT
 //
 
 #import <Foundation/Foundation.h>
 
 
 
+extern float const SizeFontXxl;
+extern float const SizeFontXl;
+extern float const SizeFontL;
+extern float const SizeFontM;
+extern float const SizeFontS;
+extern float const SizeFontXs;
+extern float const SizeFontXxs;

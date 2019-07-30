@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Fri, 19 Jul 2019 21:24:05 GMT
+// Generated on Tue, 30 Jul 2019 12:37:48 GMT
 //
 
 
@@ -95,6 +95,13 @@ public class StyleDictionary {
     static let shadowTopLevel1 = 0 -2px 4px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.15
     static let shadowTopLevel2 = 0 -4px 12px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.12
     static let shadowTopLevel3 = 0 -12px 24px 0 UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1) 0.1
+    static let sizeFontL = CGFloat(512.00)
+    static let sizeFontM = CGFloat(384.00)
+    static let sizeFontS = CGFloat(320.00)
+    static let sizeFontXl = CGFloat(768.00)
+    static let sizeFontXs = CGFloat(256.00)
+    static let sizeFontXxl = CGFloat(960.00)
+    static let sizeFontXxs = CGFloat(224.00)
     static let spacingL = 48px
     static let spacingM = 36px
     static let spacingS = 24px
