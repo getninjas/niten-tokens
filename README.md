@@ -1,9 +1,12 @@
 # NITEN Tokens
 
+Made with [style-dictionary](https://github.com/amzn/style-dictionary)
 
 ## Install
 
-[style-dictionary](https://github.com/amzn/style-dictionary)
+```shell
+npm i
+```
 
 ## Build
 
