@@ -2,7 +2,18 @@
   "font": {
     "style": {
       "quote": {
-        "value": "italic "
+        "value": "italic"
+      },
+      "weight": {
+        "light": {
+          "value": "300"
+        },
+        "regular": {
+          "value": "400"
+        },
+        "bold": {
+          "value": "600"
+        }
       }
     }
   }
