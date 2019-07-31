@@ -30,7 +30,7 @@ StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
 
 
 // FINALLY, BUILD ALL THE PLATFORMS
-StyleDictionaryExtended.buildAllPlatforms();
+StyleDictionaryExtended.buildPlatform('web');
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
