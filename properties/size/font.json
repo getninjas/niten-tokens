@@ -48,17 +48,6 @@
       "equal": {
         "value": "1"
       }
-    },
-    "weight": {
-      "light": {
-        "value": "300"
-      },
-      "regular": {
-        "value": "400"
-      },
-      "bold": {
-        "value": "600"
-      }
     }
   }
 }
