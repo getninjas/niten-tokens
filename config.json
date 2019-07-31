@@ -1,9 +1,9 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
-    "scss": {
+    "web": {
       "transformGroup": "custom/web",
-      "buildPath": "build/scss/",
+      "buildPath": "build/web/",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
