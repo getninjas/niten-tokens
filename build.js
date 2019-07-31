@@ -1,30 +1,18 @@
 const StyleDictionary = require('style-dictionary');
 
+function isOpacityGroup(prop) {
+  return prop.group === 'opacity';
+}
+
 console.log('Build started...');
 console.log('\n==============================================');
 
 StyleDictionary.registerTransform({
   name: 'opacity/number', // notice: the name is an override of an existing predefined method (yes, you can do it)
   type: 'value',
-  matcher: function(prop) {
-    // this is just an example of a possible filter (based on the "cti" values) to show how a "matcher" works
-    return prop.group === 'opacity';
-  },
+  matcher: isOpacityGroup,
   transformer: function(prop) {
-    console.log("TCL: prop.value", prop.value);
-    return `${prop.value}`;
-  }
-});
-
-StyleDictionary.registerTransform({
-  name: 'color/hexToRgba', // notice: the name is an override of an existing predefined method (yes, you can do it)
-  type: 'value',
-  matcher: function(prop) {
-    // this is just an example of a possible filter (based on the "cti" values) to show how a "matcher" works
-    return prop.group === 'opacity';
-  },
-  transformer: function(prop) {
-    return `${prop.value}`;
+    return prop.value;
   }
 });
 
@@ -32,7 +20,7 @@ StyleDictionary.registerTransformGroup({
   name: 'custom/web',
   // this is just to show a possibility, if you want to add a few transforms to a pre-defined group
   // (even so, we suggest to use the previous approach, which is more explicit and clear)
-  transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", 'opacity/number', 'color/hexToRgba']
+  transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
 });
 
 // APPLY THE CONFIGURATION
