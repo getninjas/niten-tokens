@@ -8,6 +8,16 @@
         "destination": "_variables.scss",
         "format": "scss/variables"
       }]
+    },
+    "ios-swift": {
+      "transformGroup": "custom/ios",
+      "buildPath": "build/ios-swift/",
+      "files": [{
+        "destination": "NitenTokens.swift",
+        "format": "ios-swift/class.swift",
+        "className": "NitenTokens",
+        "filter": {}
+      }]
     }
   }
 }
