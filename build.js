@@ -1,5 +1,34 @@
-const StyleDictionary = require('style-dictionary');
+const StyleDictionaryPackage = require('style-dictionary');
 const _ = require('lodash');
+
+function getStyleDictionaryConfig(platform) {
+  return {
+    "source": [
+      "src/properties/globals/**/*.json",
+      `src/properties/platforms/${platform}/**/*.json`
+    ],
+    "platforms": {
+      "web": {
+        "transformGroup": "custom/web",
+        "buildPath": `build/web/`,
+        "files": [{
+          "destination": "_niten-tokens.scss",
+          "format": "scss/variables"
+        }]
+      },
+      "ios": {
+        "transformGroup": "custom/ios",
+        "buildPath": "build/ios/",
+        "files": [{
+          "destination": "NitenTokens.swift",
+          "format": "ios-swift/class.swift",
+          "className": "NitenTokens",
+          "filter": {}
+        }]
+      }
+    }
+  };
+}
 
 function isOpacityGroup(prop) {
   return prop.group === 'opacity';
@@ -12,7 +41,7 @@ function isOffset(prop) {
 console.log('Build started...');
 console.log('\n==============================================');
 
-StyleDictionary.registerTransform({
+StyleDictionaryPackage.registerTransform({
   name: 'opacity/number',
   type: 'value',
   matcher: isOpacityGroup,
@@ -21,8 +50,8 @@ StyleDictionary.registerTransform({
   }
 });
 
-StyleDictionary.registerTransform({
-  name: 'color/cgsize',
+StyleDictionaryPackage.registerTransform({
+  name: 'color/CGSize',
   type: 'value',
   matcher: isOffset,
   transformer: function(prop) {
@@ -31,7 +60,7 @@ StyleDictionary.registerTransform({
   }
 });
 
-StyleDictionary.registerTransform({
+StyleDictionaryPackage.registerTransform({
   name: 'name/ti/camel',
   type: 'name',
   transformer: function(prop, options) {
@@ -39,19 +68,21 @@ StyleDictionary.registerTransform({
   }
 });
 
-StyleDictionary.registerTransformGroup({
+StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
 });
 
-StyleDictionary.registerTransformGroup({
+StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "color/cgsize"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "color/CGSize"]
 });
 
-StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
+['web', 'ios'].map(function (platform) {
+  const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
-StyleDictionaryExtended.buildPlatform("ios-swift");
+  StyleDictionary.buildPlatform(platform);
+})
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
