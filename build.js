@@ -23,7 +23,6 @@ function getStyleDictionaryConfig(platform) {
           "destination": "NitenTokens.swift",
           "format": "ios-swift/class.swift",
           "className": "NitenTokens",
-          "filter": {}
         }]
       }
     }
