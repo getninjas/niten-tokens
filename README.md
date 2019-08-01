@@ -1,5 +1,7 @@
 # NITEN Tokens
 
+[![npm version](https://badge.fury.io/js/%40getninjas%2Fniten-tokens.svg)](https://badge.fury.io/js/%40getninjas%2Fniten-tokens)
+
 Made with [style-dictionary](https://github.com/amzn/style-dictionary)
 
 ## Install
