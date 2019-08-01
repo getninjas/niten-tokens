@@ -1,0 +1,14 @@
+{
+  "color": {
+    "opacity": {
+      "translucent": {
+        "value": "0.35",
+        "group": "opacity"
+      },
+      "opaque": {
+        "value": "0.6",
+        "group": "opacity"
+      }
+    }
+  }
+}
