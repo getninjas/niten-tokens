@@ -3,14 +3,13 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Thu, 01 Aug 2019 17:34:50 GMT
+// Generated on Thu, 01 Aug 2019 17:40:06 GMT
 //
 
 
 import UIKit
 
 public class NitenTokens {
-    static let borderStyleDefault = solid
     static let colorBrandFirstDark = UIColor(red: 0.13, green: 0.13, blue: 0.13, alpha:1)
     static let colorBrandFirstExtraDark = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
     static let colorBrandFirstLight = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha:1)
@@ -49,7 +48,7 @@ public class NitenTokens {
     static let colorInterfaceShadeMedium = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha:1)
     static let colorOpacityOpaque = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
     static let colorOpacityTranslucent = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
-    static let fontFamilyDefault = 'Source Sans Pro', Helvetica, Arial, sans-serif
+    static let fontFamilyDefault = Source Sans Pro
     static let fontStyleQuote = italic
     static let fontStyleWeightBold = 600
     static let fontStyleWeightLight = 300
