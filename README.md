@@ -25,3 +25,10 @@ In Sass
 
 .blue-thing { color: $color-brand-first-dark }
 ```
+
+## Contributing
+
+### [Contributing guide](CONTRIBUTING.md)
+
+Read the [contributing guide](CONTRIBUTING.md)
+to learn how to propose changes and understand our development process.
