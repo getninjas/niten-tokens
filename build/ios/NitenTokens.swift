@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Thu, 01 Aug 2019 20:50:59 GMT
+// Generated on Thu, 01 Aug 2019 21:22:01 GMT
 //
 
 
@@ -46,13 +46,13 @@ public class NitenTokens {
     static let colorInterfaceShadeExtraDark = UIColor(red: 0.70, green: 0.70, blue: 0.70, alpha:1)
     static let colorInterfaceShadeLight = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha:1)
     static let colorInterfaceShadeMedium = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha:1)
-    static let colorOpacityOpaque = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
-    static let colorOpacityTranslucent = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
     static let fontFamilyDefault = 'Source Sans Pro'
     static let fontStyleQuote = italic
     static let fontStyleWeightBold = 600
     static let fontStyleWeightLight = 300
     static let fontStyleWeightRegular = 400
+    static let opacityOpaque = 0.6
+    static let opacityTranslucent = 0.35
     static let shadowOffsetBottom1 = CGSize(width: 0, height:2)
     static let shadowOffsetBottom2 = CGSize(width: 0, height:4)
     static let shadowOffsetBottom3 = CGSize(width: 0, height:12)
