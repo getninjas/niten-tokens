@@ -37,6 +37,10 @@ function isOffset(prop) {
   return prop.attributes.type === 'offset';
 }
 
+function isSize(prop) {
+  return prop.attributes.category === 'size';
+}
+
 console.log('Build started...');
 console.log('\n==============================================');
 
@@ -67,6 +71,15 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'size/pxToCGFloat',
+  type: 'value',
+  matcher: isSize,
+  transformer: function(prop) {
+    return `CGFloat(${(parseFloat(prop.value, 10)).toFixed(2)})`;
+  }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
@@ -74,7 +87,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "color/CGSize"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "color/CGSize", "size/pxToCGFloat"]
 });
 
 ['web', 'ios'].map(function (platform) {
