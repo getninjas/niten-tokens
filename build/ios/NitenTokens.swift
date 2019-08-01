@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Thu, 01 Aug 2019 17:40:06 GMT
+// Generated on Thu, 01 Aug 2019 17:49:28 GMT
 //
 
 
@@ -78,14 +78,6 @@ public class NitenTokens {
     static let sizeFontXs = 16px
     static let sizeFontXxl = 60px
     static let sizeFontXxs = 14px
-    static let sizeLineHeightEqual = 1
-    static let sizeLineHeightL = 40px
-    static let sizeLineHeightM = 32px
-    static let sizeLineHeightS = 28px
-    static let sizeLineHeightXl = 56px
-    static let sizeLineHeightXs = 24px
-    static let sizeLineHeightXxl = 68px
-    static let sizeLineHeightXxs = 22px
     static let sizeSpacingL = 48px
     static let sizeSpacingM = 36px
     static let sizeSpacingS = 24px
