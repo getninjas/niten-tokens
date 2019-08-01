@@ -29,8 +29,8 @@ function getStyleDictionaryConfig(platform) {
   };
 }
 
-function isOpacityGroup(prop) {
-  return prop.group === 'opacity';
+function isOpacity(prop) {
+  return prop.attributes.category === 'opacity';
 }
 
 function isOffset(prop) {
@@ -47,8 +47,10 @@ console.log('\n==============================================');
 StyleDictionaryPackage.registerTransform({
   name: 'opacity/number',
   type: 'value',
-  matcher: isOpacityGroup,
-  transformer: function(prop) {
+  matcher: isOpacity,
+  transformer: function(prop, options) {
+    console.log('TCL: prop', prop);
+    console.log('TCL: options', options);
     return prop.value;
   }
 });
@@ -87,7 +89,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "opacity/number"]
 });
 
 ['web', 'ios'].map(function (platform) {
