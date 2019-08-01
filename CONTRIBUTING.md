@@ -30,6 +30,7 @@ npm run clean
 
 When releasing a new version, follow these steps on `master` branch:
 
-1.  Run `npm version [major | minor | patch | premajor | preminor | prepatch | prerelease]` and assign a new version (to more details visit [NPM Docs - npm version](https://docs.npmjs.com/cli/version))
-2.  Run `git push --follow-tags`
-3.  Run `npm publish`
+1. Update [CHANGELOG.md](CHANGELOG.md) and commit the changes
+1. Run `npm version [major | minor | patch | premajor | preminor | prepatch | prerelease]` and assign a new version (to more details visit [NPM Docs - npm version](https://docs.npmjs.com/cli/version))
+2. Run `git push --follow-tags`
+3. Run `npm publish`
