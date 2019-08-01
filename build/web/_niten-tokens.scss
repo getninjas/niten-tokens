@@ -1,9 +1,8 @@
 /**
  * Do not edit directly
- * Generated on Wed, 31 Jul 2019 14:13:28 GMT
+ * Generated on Thu, 01 Aug 2019 18:31:41 GMT
  */
 
-$border-style-default: solid;
 $color-brand-first-extra-dark: #000000;
 $color-brand-first-dark: #212121;
 $color-brand-first-medium: #575757;
@@ -42,17 +41,11 @@ $color-interface-shade-medium: #F2F2F2;
 $color-interface-shade-light: #F8F8F8;
 $color-opacity-translucent: 0.35;
 $color-opacity-opaque: 0.6;
-$font-family-default: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-style-quote: italic;
 $font-style-weight-light: 300;
 $font-style-weight-regular: 400;
 $font-style-weight-bold: 600;
-$shadow-top-level-1: 0 -2px 4px 0 rgba(0, 0, 0, .15);
-$shadow-top-level-2: 0 -4px 12px 0 rgba(0, 0, 0, .12);
-$shadow-top-level-3: 0 -12px 24px 0 rgba(0, 0, 0, .1);
-$shadow-bottom-level-1: 0 2px 4px 0 rgba(0, 0, 0, .15);
-$shadow-bottom-level-2: 0 4px 12px 0 rgba(0, 0, 0, .12);
-$shadow-bottom-level-3: 0 12px 24px 0 rgba(0, 0, 0, .1);
+$font-family-default: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $size-border-radius-none: 0;
 $size-border-radius-s: 4px;
 $size-border-radius-m: 8px;
@@ -69,14 +62,6 @@ $size-font-m: 24px;
 $size-font-s: 20px;
 $size-font-xs: 16px;
 $size-font-xxs: 14px;
-$size-line-height-xxl: 68px;
-$size-line-height-xl: 56px;
-$size-line-height-l: 40px;
-$size-line-height-m: 32px;
-$size-line-height-s: 28px;
-$size-line-height-xs: 24px;
-$size-line-height-xxs: 22px;
-$size-line-height-equal: 1;
 $size-spacing-xxxs: 8px;
 $size-spacing-xxs: 12px;
 $size-spacing-xs: 16px;
@@ -86,3 +71,18 @@ $size-spacing-l: 48px;
 $size-spacing-xl: 60px;
 $size-spacing-xxl: 84px;
 $size-spacing-xxxl: 148px;
+$size-line-height-xxl: 68px;
+$size-line-height-xl: 56px;
+$size-line-height-l: 40px;
+$size-line-height-m: 32px;
+$size-line-height-s: 28px;
+$size-line-height-xs: 24px;
+$size-line-height-xxs: 22px;
+$size-line-height-equal: 1;
+$border-style-default: solid;
+$shadow-top-level-1: 0 -2px 4px 0 rgba(0, 0, 0, .15);
+$shadow-top-level-2: 0 -4px 12px 0 rgba(0, 0, 0, .12);
+$shadow-top-level-3: 0 -12px 24px 0 rgba(0, 0, 0, .1);
+$shadow-bottom-level-1: 0 2px 4px 0 rgba(0, 0, 0, .15);
+$shadow-bottom-level-2: 0 4px 12px 0 rgba(0, 0, 0, .12);
+$shadow-bottom-level-3: 0 12px 24px 0 rgba(0, 0, 0, .1);
