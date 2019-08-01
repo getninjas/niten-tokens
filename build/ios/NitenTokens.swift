@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Wed, 31 Jul 2019 19:46:11 GMT
+// Generated on Thu, 01 Aug 2019 17:23:10 GMT
 //
 
 
@@ -54,9 +54,6 @@ public class NitenTokens {
     static let fontStyleWeightBold = 600
     static let fontStyleWeightLight = 300
     static let fontStyleWeightRegular = 400
-    static let shadowBottomLevel1 = 0 2px 4px 0 rgba(0, 0, 0, .15)
-    static let shadowBottomLevel2 = 0 4px 12px 0 rgba(0, 0, 0, .12)
-    static let shadowBottomLevel3 = 0 12px 24px 0 rgba(0, 0, 0, .1)
     static let shadowOffsetBottom1 = CGSize(width: 0, height:2)
     static let shadowOffsetBottom2 = CGSize(width: 0, height:4)
     static let shadowOffsetBottom3 = CGSize(width: 0, height:12)
@@ -66,9 +63,6 @@ public class NitenTokens {
     static let shadowRadius1 = 4
     static let shadowRadius2 = 12
     static let shadowRadius3 = 24
-    static let shadowTopLevel1 = 0 -2px 4px 0 rgba(0, 0, 0, .15)
-    static let shadowTopLevel2 = 0 -4px 12px 0 rgba(0, 0, 0, .12)
-    static let shadowTopLevel3 = 0 -12px 24px 0 rgba(0, 0, 0, .1)
     static let sizeBorderRadiusCircle = 50%
     static let sizeBorderRadiusL = 16px
     static let sizeBorderRadiusM = 8px
