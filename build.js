@@ -24,10 +24,6 @@ function isOpacityGroup(prop) {
   return prop.group === 'opacity';
 }
 
-function isOffset(prop) {
-  return prop.attributes.type === 'offset';
-}
-
 console.log('Build started...');
 console.log('\n==============================================');
 
