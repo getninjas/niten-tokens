@@ -48,7 +48,7 @@ StyleDictionaryPackage.registerTransform({
   name: 'opacity/number',
   type: 'value',
   matcher: isOpacity,
-  transformer: function(prop, options) {
+  transformer: function(prop) {
     return prop.value;
   }
 });
