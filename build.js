@@ -54,7 +54,7 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'color/CGSize',
+  name: 'size/CGSize',
   type: 'value',
   matcher: isOffset,
   transformer: function(prop) {
@@ -87,7 +87,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "color/CGSize", "size/pxToCGFloat"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
 });
 
 ['web', 'ios'].map(function (platform) {
