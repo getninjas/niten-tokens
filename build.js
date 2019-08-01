@@ -49,7 +49,7 @@ StyleDictionaryPackage.registerTransformGroup({
   const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
   StyleDictionary.buildPlatform(platform);
-})
+});
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
