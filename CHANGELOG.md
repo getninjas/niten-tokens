@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 - Updated folder structure modified to meet all platform specifics
+- Updated to generate build from multiples JSON files to platform
 
 ## 1.0.0 - 2019-08-01
 
 - Added config to web platform using [style-dictionary](https://github.com/amzn/style-dictionary) (https://github.com/getninjas/niten-tokens/pull/5)
 
-[unreleased]: https://github.com/getninjas/niten-tokens/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/getninjas/niten-tokens/compare/v1.0.1-0...HEAD
