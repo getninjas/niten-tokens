@@ -29,10 +29,6 @@ function getStyleDictionaryConfig(platform) {
   };
 }
 
-function isOpacity(prop) {
-  return prop.attributes.category === 'opacity';
-}
-
 function isOffset(prop) {
   return prop.attributes.type === 'offset';
 }
@@ -43,15 +39,6 @@ function isSize(prop) {
 
 console.log('Build started...');
 console.log('\n==============================================');
-
-StyleDictionaryPackage.registerTransform({
-  name: 'opacity/number',
-  type: 'value',
-  matcher: isOpacity,
-  transformer: function(prop) {
-    return prop.value;
-  }
-});
 
 StyleDictionaryPackage.registerTransform({
   name: 'size/CGSize',
@@ -82,12 +69,12 @@ StyleDictionaryPackage.registerTransform({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
+  transforms: ["attribute/cti", "name/cti/kebab"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "opacity/number"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
 });
 
 ['web', 'ios'].map(function (platform) {
