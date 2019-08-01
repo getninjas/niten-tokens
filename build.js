@@ -49,8 +49,6 @@ StyleDictionaryPackage.registerTransform({
   type: 'value',
   matcher: isOpacity,
   transformer: function(prop, options) {
-    console.log('TCL: prop', prop);
-    console.log('TCL: options', options);
     return prop.value;
   }
 });
