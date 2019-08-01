@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Thu, 01 Aug 2019 18:08:56 GMT
+// Generated on Thu, 01 Aug 2019 20:34:29 GMT
 //
 
 
@@ -48,11 +48,7 @@ public class NitenTokens {
     static let colorInterfaceShadeMedium = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha:1)
     static let colorOpacityOpaque = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
     static let colorOpacityTranslucent = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1)
-    static let fontFamilyDefault = Source Sans Pro
-    static let fontStyleQuote = italic
-    static let fontStyleWeightBold = 600
-    static let fontStyleWeightLight = 300
-    static let fontStyleWeightRegular = 400
+    static let fontFamilyDefault = 'Source Sans Pro'
     static let shadowOffsetBottom1 = CGSize(width: 0, height:2)
     static let shadowOffsetBottom2 = CGSize(width: 0, height:4)
     static let shadowOffsetBottom3 = CGSize(width: 0, height:12)
@@ -62,27 +58,27 @@ public class NitenTokens {
     static let shadowRadius1 = 4
     static let shadowRadius2 = 12
     static let shadowRadius3 = 24
-    static let sizeBorderRadiusL = 16px
-    static let sizeBorderRadiusM = 8px
-    static let sizeBorderRadiusNone = 0
-    static let sizeBorderRadiusS = 4px
-    static let sizeBorderWidthNone = 0
-    static let sizeBorderWidthThick = 2px
-    static let sizeBorderWidthThin = 1px
-    static let sizeFontL = 32px
-    static let sizeFontM = 24px
-    static let sizeFontS = 20px
-    static let sizeFontXl = 48px
-    static let sizeFontXs = 16px
-    static let sizeFontXxl = 60px
-    static let sizeFontXxs = 14px
-    static let sizeSpacingL = 48px
-    static let sizeSpacingM = 36px
-    static let sizeSpacingS = 24px
-    static let sizeSpacingXl = 60px
-    static let sizeSpacingXs = 16px
-    static let sizeSpacingXxl = 84px
-    static let sizeSpacingXxs = 12px
-    static let sizeSpacingXxxl = 148px
-    static let sizeSpacingXxxs = 8px
+    static let sizeBorderRadiusL = CGFloat(16.00)
+    static let sizeBorderRadiusM = CGFloat(8.00)
+    static let sizeBorderRadiusNone = CGFloat(0.00)
+    static let sizeBorderRadiusS = CGFloat(4.00)
+    static let sizeBorderWidthNone = CGFloat(0.00)
+    static let sizeBorderWidthThick = CGFloat(2.00)
+    static let sizeBorderWidthThin = CGFloat(1.00)
+    static let sizeFontL = CGFloat(32.00)
+    static let sizeFontM = CGFloat(24.00)
+    static let sizeFontS = CGFloat(20.00)
+    static let sizeFontXl = CGFloat(48.00)
+    static let sizeFontXs = CGFloat(16.00)
+    static let sizeFontXxl = CGFloat(60.00)
+    static let sizeFontXxs = CGFloat(14.00)
+    static let sizeSpacingL = CGFloat(48.00)
+    static let sizeSpacingM = CGFloat(36.00)
+    static let sizeSpacingS = CGFloat(24.00)
+    static let sizeSpacingXl = CGFloat(60.00)
+    static let sizeSpacingXs = CGFloat(16.00)
+    static let sizeSpacingXxl = CGFloat(84.00)
+    static let sizeSpacingXxs = CGFloat(12.00)
+    static let sizeSpacingXxxl = CGFloat(148.00)
+    static let sizeSpacingXxxs = CGFloat(8.00)
 }
