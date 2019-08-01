@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Thu, 01 Aug 2019 17:49:28 GMT
+// Generated on Thu, 01 Aug 2019 18:08:56 GMT
 //
 
 
@@ -62,11 +62,9 @@ public class NitenTokens {
     static let shadowRadius1 = 4
     static let shadowRadius2 = 12
     static let shadowRadius3 = 24
-    static let sizeBorderRadiusCircle = 50%
     static let sizeBorderRadiusL = 16px
     static let sizeBorderRadiusM = 8px
     static let sizeBorderRadiusNone = 0
-    static let sizeBorderRadiusPill = 160px
     static let sizeBorderRadiusS = 4px
     static let sizeBorderWidthNone = 0
     static let sizeBorderWidthThick = 2px
