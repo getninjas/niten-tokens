@@ -1,4 +1,24 @@
-const StyleDictionary = require('style-dictionary');
+const StyleDictionaryPackage = require('style-dictionary');
+const _ = require('lodash');
+
+function getStyleDictionaryConfig(platform) {
+  return {
+    "source": [
+      "src/properties/globals/**/*.json",
+      `src/properties/platforms/${platform}/**/*.json`
+    ],
+    "platforms": {
+      "web": {
+        "transformGroup": "custom/web",
+        "buildPath": `build/web/`,
+        "files": [{
+          "destination": "_niten-tokens.scss",
+          "format": "scss/variables"
+        }]
+      }
+    }
+  };
+}
 
 function isOpacityGroup(prop) {
   return prop.group === 'opacity';
@@ -7,7 +27,7 @@ function isOpacityGroup(prop) {
 console.log('Build started...');
 console.log('\n==============================================');
 
-StyleDictionary.registerTransform({
+StyleDictionaryPackage.registerTransform({
   name: 'opacity/number',
   type: 'value',
   matcher: isOpacityGroup,
@@ -16,14 +36,16 @@ StyleDictionary.registerTransform({
   }
 });
 
-StyleDictionary.registerTransformGroup({
+StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
 });
 
-StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
+['web'].map(function (platform) {
+  const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
-StyleDictionaryExtended.buildPlatform('web');
+  StyleDictionary.buildPlatform(platform);
+});
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
