@@ -10,7 +10,7 @@ cd niten-tokens
 npm i
 ```
 
-## Build files platform
+## Build platform files
 
 Run follow command to generate `build` folder with files to platforms (Web, iOS, Android)
 
