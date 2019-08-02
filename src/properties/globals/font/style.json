@@ -1,9 +1,6 @@
 {
   "font": {
     "style": {
-      "quote": {
-        "value": "italic"
-      },
       "weight": {
         "light": {
           "value": "300"
