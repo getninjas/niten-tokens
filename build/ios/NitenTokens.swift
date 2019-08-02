@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Fri, 02 Aug 2019 17:56:31 GMT
+// Generated on Fri, 02 Aug 2019 19:44:32 GMT
 //
 
 

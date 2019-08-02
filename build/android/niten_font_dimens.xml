@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 02 Aug 2019 19:44:32 GMT
+-->
+<resources>
+  <dimen name="size_font_xxl">960.00sp</dimen>
+  <dimen name="size_font_xl">768.00sp</dimen>
+  <dimen name="size_font_l">512.00sp</dimen>
+  <dimen name="size_font_m">384.00sp</dimen>
+  <dimen name="size_font_s">320.00sp</dimen>
+  <dimen name="size_font_xs">256.00sp</dimen>
+  <dimen name="size_font_xxs">224.00sp</dimen>
+  
+</resources>

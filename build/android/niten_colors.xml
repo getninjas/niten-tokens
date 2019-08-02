@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 02 Aug 2019 19:44:32 GMT
+-->
+<resources>
+  <color name="color_brand_first_extra_dark">#ff000000</color>
+  <color name="color_brand_first_dark">#ff212121</color>
+  <color name="color_brand_first_medium">#ff575757</color>
+  <color name="color_brand_first_light">#ffffffff</color>
+  <color name="color_brand_second_extra_dark">#ff615600</color>
+  <color name="color_brand_second_dark">#ffffea52</color>
+  <color name="color_brand_second_medium">#fffff399</color>
+  <color name="color_brand_second_light">#fffffce6</color>
+  <color name="color_interface_positive_extra_dark">#ff006513</color>
+  <color name="color_interface_positive_dark">#ff25a159</color>
+  <color name="color_interface_positive_medium">#ffa0e9be</color>
+  <color name="color_interface_positive_light">#ffeafaf1</color>
+  <color name="color_interface_alert_extra_dark">#ffd78e00</color>
+  <color name="color_interface_alert_dark">#fff6ba50</color>
+  <color name="color_interface_alert_medium">#fffff085</color>
+  <color name="color_interface_alert_light">#fffffce6</color>
+  <color name="color_interface_negative_extra_dark">#ffb40300</color>
+  <color name="color_interface_negative_dark">#fff26565</color>
+  <color name="color_interface_negative_medium">#fff49999</color>
+  <color name="color_interface_negative_light">#fffdecec</color>
+  <color name="color_interface_highlight_extra_dark">#ff5319a9</color>
+  <color name="color_interface_highlight_dark">#ff9a63ee</color>
+  <color name="color_interface_highlight_medium">#ffc8a3ff</color>
+  <color name="color_interface_highlight_light">#fff3ebff</color>
+  <color name="color_interface_action_extra_dark">#ff195ca9</color>
+  <color name="color_interface_action_dark">#ff009ded</color>
+  <color name="color_interface_action_medium">#ff7ad6ff</color>
+  <color name="color_interface_action_light">#ffe5f7ff</color>
+  <color name="color_interface_content_extra_dark">#ff000000</color>
+  <color name="color_interface_content_dark">#ff212121</color>
+  <color name="color_interface_content_medium">#ff575757</color>
+  <color name="color_interface_content_light">#ffffffff</color>
+  <color name="color_interface_shade_extra_dark">#ffb2b2b2</color>
+  <color name="color_interface_shade_dark">#ffdbdbdb</color>
+  <color name="color_interface_shade_medium">#fff2f2f2</color>
+  <color name="color_interface_shade_light">#fff8f8f8</color>
+  
+</resources>

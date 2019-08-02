@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 02 Aug 2019 19:44:32 GMT
+-->
+<resources>
+  <dimen name="size_border_radius_none">0.00dp</dimen>
+  <dimen name="size_border_radius_s">64.00dp</dimen>
+  <dimen name="size_border_radius_m">128.00dp</dimen>
+  <dimen name="size_border_radius_l">256.00dp</dimen>
+  <dimen name="size_border_width_none">0.00dp</dimen>
+  <dimen name="size_border_width_thin">16.00dp</dimen>
+  <dimen name="size_border_width_thick">32.00dp</dimen>
+  <dimen name="size_spacing_xxxs">128.00dp</dimen>
+  <dimen name="size_spacing_xxs">192.00dp</dimen>
+  <dimen name="size_spacing_xs">256.00dp</dimen>
+  <dimen name="size_spacing_s">384.00dp</dimen>
+  <dimen name="size_spacing_m">576.00dp</dimen>
+  <dimen name="size_spacing_l">768.00dp</dimen>
+  <dimen name="size_spacing_xl">960.00dp</dimen>
+  <dimen name="size_spacing_xxl">1344.00dp</dimen>
+  <dimen name="size_spacing_xxxl">2368.00dp</dimen>
+  
+</resources>

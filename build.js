@@ -24,8 +24,22 @@ function getStyleDictionaryConfig(platform) {
           "format": "ios-swift/class.swift",
           "className": "NitenTokens",
         }]
-      }
-    }
+      },
+      "android": {
+        "transformGroup": "android",
+        "buildPath": "build/android/",
+        "files": [{
+          "destination": "niten_colors.xml",
+          "format": "android/colors"
+        },{
+          "destination": "niten_font_dimens.xml",
+          "format": "android/fontDimens"
+        },{
+          "destination": "niten_dimens.xml",
+          "format": "android/dimens"
+        }]
+      },
+    },
   };
 }
 
@@ -77,7 +91,7 @@ StyleDictionaryPackage.registerTransformGroup({
   transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
 });
 
-['web', 'ios'].map(function (platform) {
+['web', 'ios', 'android'].map(function (platform) {
   const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
   StyleDictionary.buildPlatform(platform);
