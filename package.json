@@ -1,6 +1,6 @@
 {
-  "name": "niten-tokens",
-  "version": "1.0.0",
+  "name": "@getninjas/niten-tokens",
+  "version": "1.0.1-0",
   "description": "Design System Tokens of GetNinjas",
   "main": "",
   "scripts": {
