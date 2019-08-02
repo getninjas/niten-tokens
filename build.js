@@ -15,37 +15,73 @@ function getStyleDictionaryConfig(platform) {
           "destination": "_niten-tokens.scss",
           "format": "scss/variables"
         }]
+      },
+      "ios": {
+        "transformGroup": "custom/ios",
+        "buildPath": "build/ios/",
+        "files": [{
+          "destination": "NitenTokens.swift",
+          "format": "ios-swift/class.swift",
+          "className": "NitenTokens",
+        }]
       }
     }
   };
 }
 
-function isOpacityGroup(prop) {
-  return prop.group === 'opacity';
+function isOffset(prop) {
+  return prop.attributes.type === 'offset';
+}
+
+function isSize(prop) {
+  return prop.attributes.category === 'size';
 }
 
 console.log('Build started...');
 console.log('\n==============================================');
 
 StyleDictionaryPackage.registerTransform({
-  name: 'opacity/number',
+  name: 'size/CGSize',
   type: 'value',
-  matcher: isOpacityGroup,
+  matcher: isOffset,
   transformer: function(prop) {
-    return prop.value;
+    const value = prop.value.split(' ');
+    return `CGSize(width: ${value[0]}, height:${value[1]})`;
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'name/ti/camel',
+  type: 'name',
+  transformer: function(prop, options) {
+    return _.camelCase([options.prefix].concat(prop.path).join(' '));
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'size/pxToCGFloat',
+  type: 'value',
+  matcher: isSize,
+  transformer: function(prop) {
+    return `CGFloat(${(parseFloat(prop.value, 10)).toFixed(2)})`;
   }
 });
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", 'opacity/number']
+  transforms: ["attribute/cti", "name/cti/kebab"]
 });
 
-['web'].map(function (platform) {
+StyleDictionaryPackage.registerTransformGroup({
+  name: 'custom/ios',
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
+});
+
+['web', 'ios'].map(function (platform) {
   const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
   StyleDictionary.buildPlatform(platform);
-});
+})
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');

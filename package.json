@@ -24,5 +24,8 @@
   "homepage": "https://github.com/getninjas/niten-tokens#readme",
   "devDependencies": {
     "style-dictionary": "^2.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
