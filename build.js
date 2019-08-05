@@ -1,6 +1,6 @@
-const StyleDictionaryPackage = require('style-dictionary'),
-      _                      = require('lodash')
-      Color                  = require('tinycolor2');
+const StyleDictionaryPackage = require('style-dictionary');
+const _ = require('lodash');
+const Color = require('tinycolor2');
 
 function getStyleDictionaryConfig(platform) {
   return {
@@ -27,7 +27,7 @@ function getStyleDictionaryConfig(platform) {
         }]
       },
       "android": {
-        "transformGroup": "android",
+        "transformGroup": "custom/android",
         "buildPath": "build/android/",
         "files": [{
           "destination": "niten_colors.xml",
@@ -120,6 +120,11 @@ StyleDictionaryPackage.registerTransformGroup({
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
   transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "size/shadowRadiusToCGFloat"]
+});
+
+StyleDictionaryPackage.registerTransformGroup({
+  name: 'custom/android',
+  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp"]
 });
 
 ['web', 'ios', 'android'].map(function (platform) {
