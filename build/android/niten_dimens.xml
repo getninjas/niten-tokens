@@ -2,24 +2,34 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 02 Aug 2019 19:44:32 GMT
+  Generated on Mon, 05 Aug 2019 13:15:43 GMT
 -->
 <resources>
   <dimen name="size_border_radius_none">0.00dp</dimen>
-  <dimen name="size_border_radius_s">64.00dp</dimen>
-  <dimen name="size_border_radius_m">128.00dp</dimen>
-  <dimen name="size_border_radius_l">256.00dp</dimen>
+  <dimen name="size_border_radius_s">4.00dp</dimen>
+  <dimen name="size_border_radius_m">8.00dp</dimen>
+  <dimen name="size_border_radius_l">16.00dp</dimen>
+  <dimen name="size_border_radius_circle">50.00dp</dimen>
+  <dimen name="size_border_radius_pill">160.00dp</dimen>
   <dimen name="size_border_width_none">0.00dp</dimen>
-  <dimen name="size_border_width_thin">16.00dp</dimen>
-  <dimen name="size_border_width_thick">32.00dp</dimen>
-  <dimen name="size_spacing_xxxs">128.00dp</dimen>
-  <dimen name="size_spacing_xxs">192.00dp</dimen>
-  <dimen name="size_spacing_xs">256.00dp</dimen>
-  <dimen name="size_spacing_s">384.00dp</dimen>
-  <dimen name="size_spacing_m">576.00dp</dimen>
-  <dimen name="size_spacing_l">768.00dp</dimen>
-  <dimen name="size_spacing_xl">960.00dp</dimen>
-  <dimen name="size_spacing_xxl">1344.00dp</dimen>
-  <dimen name="size_spacing_xxxl">2368.00dp</dimen>
+  <dimen name="size_border_width_thin">1.00dp</dimen>
+  <dimen name="size_border_width_thick">2.00dp</dimen>
+  <dimen name="size_spacing_xxxs">8.00dp</dimen>
+  <dimen name="size_spacing_xxs">12.00dp</dimen>
+  <dimen name="size_spacing_xs">16.00dp</dimen>
+  <dimen name="size_spacing_s">24.00dp</dimen>
+  <dimen name="size_spacing_m">36.00dp</dimen>
+  <dimen name="size_spacing_l">48.00dp</dimen>
+  <dimen name="size_spacing_xl">60.00dp</dimen>
+  <dimen name="size_spacing_xxl">84.00dp</dimen>
+  <dimen name="size_spacing_xxxl">148.00dp</dimen>
+  <dimen name="size_line_height_xxl">68.00dp</dimen>
+  <dimen name="size_line_height_xl">56.00dp</dimen>
+  <dimen name="size_line_height_l">40.00dp</dimen>
+  <dimen name="size_line_height_m">32.00dp</dimen>
+  <dimen name="size_line_height_s">28.00dp</dimen>
+  <dimen name="size_line_height_xs">24.00dp</dimen>
+  <dimen name="size_line_height_xxs">22.00dp</dimen>
+  <dimen name="size_line_height_equal">1.00dp</dimen>
   
 </resources>
