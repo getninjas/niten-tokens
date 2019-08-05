@@ -1,5 +1,6 @@
-const StyleDictionaryPackage = require('style-dictionary');
-const _ = require('lodash');
+const StyleDictionaryPackage = require('style-dictionary'),
+      _                      = require('lodash')
+      Color                  = require('tinycolor2');
 
 function getStyleDictionaryConfig(platform) {
   return {
@@ -37,6 +38,14 @@ function isSize(prop) {
   return prop.attributes.category === 'size';
 }
 
+function isColor(prop) {
+  return prop.attributes.category === 'color';
+}
+
+function isShadowRadius(prop) {
+  return prop.attributes.type === 'radius' && prop.attributes.category === 'shadow';
+}
+
 console.log('Build started...');
 console.log('\n==============================================');
 
@@ -46,7 +55,7 @@ StyleDictionaryPackage.registerTransform({
   matcher: isOffset,
   transformer: function(prop) {
     const value = prop.value.split(' ');
-    return `CGSize(width: ${value[0]}, height:${value[1]})`;
+    return `CGSize(width: ${value[0]}, height: ${value[1]})`;
   }
 });
 
@@ -67,6 +76,28 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'color/UIColorSwift',
+  type: 'value',
+  matcher: isColor,
+  transformer: function(prop) {
+    const { r, g, b, a } = Color(prop.value).toRgb();
+    const rFixed = (r / 255.0).toFixed(2);
+    const gFixed = (g / 255.0).toFixed(2);
+    const bFixed = (b / 255.0).toFixed(2);
+    return `UIColor(red: ${rFixed}, green: ${gFixed}, blue: ${bFixed}, alpha: ${a})`;
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'size/shadowRadiusToCGFloat',
+  type: 'value',
+  matcher: isShadowRadius,
+  transformer: function(prop) {
+    return `CGFloat(${(parseFloat(prop.value, 10)).toFixed(2)})`;
+  }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab"]
@@ -74,7 +105,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "size/shadowRadiusToCGFloat"]
 });
 
 ['web', 'ios'].map(function (platform) {
