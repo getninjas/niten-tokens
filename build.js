@@ -112,6 +112,15 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'size/dp',
+  type: 'value',
+  matcher: isSize,
+  transformer: function(prop) {
+    return parseFloat(prop.value, 10) + 'dp';
+  }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab"]
