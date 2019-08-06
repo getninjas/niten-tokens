@@ -2,34 +2,24 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 05 Aug 2019 13:15:43 GMT
+  Generated on Tue, 06 Aug 2019 18:40:46 GMT
 -->
 <resources>
-  <dimen name="size_border_radius_none">0.00dp</dimen>
-  <dimen name="size_border_radius_s">4.00dp</dimen>
-  <dimen name="size_border_radius_m">8.00dp</dimen>
-  <dimen name="size_border_radius_l">16.00dp</dimen>
-  <dimen name="size_border_radius_circle">50.00dp</dimen>
-  <dimen name="size_border_radius_pill">160.00dp</dimen>
-  <dimen name="size_border_width_none">0.00dp</dimen>
-  <dimen name="size_border_width_thin">1.00dp</dimen>
-  <dimen name="size_border_width_thick">2.00dp</dimen>
-  <dimen name="size_spacing_xxxs">8.00dp</dimen>
-  <dimen name="size_spacing_xxs">12.00dp</dimen>
-  <dimen name="size_spacing_xs">16.00dp</dimen>
-  <dimen name="size_spacing_s">24.00dp</dimen>
-  <dimen name="size_spacing_m">36.00dp</dimen>
-  <dimen name="size_spacing_l">48.00dp</dimen>
-  <dimen name="size_spacing_xl">60.00dp</dimen>
-  <dimen name="size_spacing_xxl">84.00dp</dimen>
-  <dimen name="size_spacing_xxxl">148.00dp</dimen>
-  <dimen name="size_line_height_xxl">68.00dp</dimen>
-  <dimen name="size_line_height_xl">56.00dp</dimen>
-  <dimen name="size_line_height_l">40.00dp</dimen>
-  <dimen name="size_line_height_m">32.00dp</dimen>
-  <dimen name="size_line_height_s">28.00dp</dimen>
-  <dimen name="size_line_height_xs">24.00dp</dimen>
-  <dimen name="size_line_height_xxs">22.00dp</dimen>
-  <dimen name="size_line_height_equal">1.00dp</dimen>
+  <dimen name="size_border_radius_none">0dp</dimen>
+  <dimen name="size_border_radius_s">4dp</dimen>
+  <dimen name="size_border_radius_m">8dp</dimen>
+  <dimen name="size_border_radius_l">16dp</dimen>
+  <dimen name="size_border_width_none">0dp</dimen>
+  <dimen name="size_border_width_thin">1dp</dimen>
+  <dimen name="size_border_width_thick">2dp</dimen>
+  <dimen name="size_spacing_xxxs">8dp</dimen>
+  <dimen name="size_spacing_xxs">12dp</dimen>
+  <dimen name="size_spacing_xs">16dp</dimen>
+  <dimen name="size_spacing_s">24dp</dimen>
+  <dimen name="size_spacing_m">36dp</dimen>
+  <dimen name="size_spacing_l">48dp</dimen>
+  <dimen name="size_spacing_xl">60dp</dimen>
+  <dimen name="size_spacing_xxl">84dp</dimen>
+  <dimen name="size_spacing_xxxl">148dp</dimen>
   
 </resources>
