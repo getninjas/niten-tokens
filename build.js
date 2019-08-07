@@ -1,6 +1,6 @@
-const StyleDictionaryPackage = require('style-dictionary'),
-      _                      = require('lodash')
-      Color                  = require('tinycolor2');
+const StyleDictionaryPackage = require('style-dictionary');
+const _ = require('lodash');
+const Color = require('tinycolor2');
 
 function getStyleDictionaryConfig(platform) {
   return {
@@ -25,8 +25,22 @@ function getStyleDictionaryConfig(platform) {
           "format": "ios-swift/class.swift",
           "className": "NitenTokens",
         }]
-      }
-    }
+      },
+      "android": {
+        "transformGroup": "custom/android",
+        "buildPath": "build/android/",
+        "files": [{
+          "destination": "niten_colors.xml",
+          "format": "android/colors"
+        },{
+          "destination": "niten_font_dimens.xml",
+          "format": "android/fontDimens"
+        },{
+          "destination": "niten_dimens.xml",
+          "format": "android/dimens"
+        }]
+      },
+    },
   };
 }
 
@@ -98,6 +112,15 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'size/dp',
+  type: 'value',
+  matcher: isSize,
+  transformer: function(prop) {
+    return parseFloat(prop.value, 10) + 'dp';
+  }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
   transforms: ["attribute/cti", "name/cti/kebab"]
@@ -108,7 +131,12 @@ StyleDictionaryPackage.registerTransformGroup({
   transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "size/shadowRadiusToCGFloat"]
 });
 
-['web', 'ios'].map(function (platform) {
+StyleDictionaryPackage.registerTransformGroup({
+  name: 'custom/android',
+  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp"]
+});
+
+['web', 'ios', 'android'].map(function (platform) {
   const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
 
   StyleDictionary.buildPlatform(platform);

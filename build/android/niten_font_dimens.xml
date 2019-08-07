@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 06 Aug 2019 18:40:46 GMT
+-->
+<resources>
+  <dimen name="size_font_xxl">60dp</dimen>
+  <dimen name="size_font_xl">48dp</dimen>
+  <dimen name="size_font_l">32dp</dimen>
+  <dimen name="size_font_m">24dp</dimen>
+  <dimen name="size_font_s">20dp</dimen>
+  <dimen name="size_font_xs">16dp</dimen>
+  <dimen name="size_font_xxs">14dp</dimen>
+  
+</resources>
