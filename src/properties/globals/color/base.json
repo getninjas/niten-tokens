@@ -12,7 +12,7 @@
           "value": "#575757"
         },
         "light": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         }
       },
       "second": {
@@ -20,13 +20,13 @@
           "value": "#615600"
         },
         "dark": {
-          "value": "#FFEA52"
+          "value": "#ffea52"
         },
         "medium": {
-          "value": "#FFF399"
+          "value": "#fff399"
         },
         "light": {
-          "value": "#FFFCE6"
+          "value": "#fffce6"
         }
       }
     },
@@ -36,69 +36,69 @@
           "value": "#006513"
         },
         "dark": {
-          "value": "#25A159"
+          "value": "#25a159"
         },
         "medium": {
-          "value": "#A0E9BE"
+          "value": "#a0e9be"
         },
         "light": {
-          "value": "#EAFAF1"
+          "value": "#eafaf1"
         }
       },
       "alert": {
         "extra-dark": {
-          "value": "#D78E00"
+          "value": "#d78e00"
         },
         "dark": {
-          "value": "#F6BA50"
+          "value": "#f6ba50"
         },
         "medium": {
-          "value": "#FFF085"
+          "value": "#fff085"
         },
         "light": {
-          "value": "#FFFCE6"
+          "value": "#fffce6"
         }
       },
       "negative": {
         "extra-dark": {
-          "value": "#B40300"
+          "value": "#b40300"
         },
         "dark": {
-          "value": "#F26565"
+          "value": "#f26565"
         },
         "medium": {
-          "value": "#F49999"
+          "value": "#f49999"
         },
         "light": {
-          "value": "#FDECEC"
+          "value": "#fdecec"
         }
       },
       "highlight": {
         "extra-dark": {
-          "value": "#5319A9"
+          "value": "#5319a9"
         },
         "dark": {
-          "value": "#9A63EE"
+          "value": "#9a63ee"
         },
         "medium": {
-          "value": "#C8A3FF"
+          "value": "#c8a3ff"
         },
         "light": {
-          "value": "#F3EBFF"
+          "value": "#f3ebff"
         }
       },
       "action": {
         "extra-dark": {
-          "value": "#195CA9"
+          "value": "#195ca9"
         },
         "dark": {
-          "value": "#009DED"
+          "value": "#009ded"
         },
         "medium": {
-          "value": "#7AD6FF"
+          "value": "#7ad6ff"
         },
         "light": {
-          "value": "#E5F7FF"
+          "value": "#e5f7ff"
         }
       },
       "content": {
@@ -112,21 +112,21 @@
           "value": "#575757"
         },
         "light": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         }
       },
       "shade": {
         "extra-dark": {
-          "value": "#B2B2B2"
+          "value": "#b2b2b2"
         },
         "dark": {
-          "value": "#DBDBDB"
+          "value": "#dbdbdb"
         },
         "medium": {
-          "value": "#F2F2F2"
+          "value": "#f2f2f2"
         },
         "light": {
-          "value": "#F8F8F8"
+          "value": "#f8f8f8"
         }
       }
     }
