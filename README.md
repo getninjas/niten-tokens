@@ -23,7 +23,7 @@ yarn add @getninjas/niten-tokens
 In Sass
 
 ```SCSS
-@import '/node_modules/@getninjas/niten-tokens/build/web/niten-tokens';
+@import 'node_modules/@getninjas/niten-tokens/build/web/niten-tokens';
 
 .blue-thing { color: $color-brand-first-dark }
 ```
