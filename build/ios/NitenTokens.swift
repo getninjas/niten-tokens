@@ -3,7 +3,7 @@
 // NitenTokens.swift
 //
 // Do not edit directly
-// Generated on Tue, 06 Aug 2019 18:40:46 GMT
+// Generated on Fri, 16 Aug 2019 19:57:44 GMT
 //
 
 
@@ -51,8 +51,8 @@ public class NitenTokens {
     static let fontStyleWeightBold = 600
     static let fontStyleWeightLight = 300
     static let fontStyleWeightRegular = 400
-    static let opacityOpaque = 0.6
-    static let opacityTranslucent = 0.35
+    static let opacityOpaque = .6
+    static let opacityTranslucent = .35
     static let shadowOffsetBottom1 = CGSize(width: 0, height: 2)
     static let shadowOffsetBottom2 = CGSize(width: 0, height: 4)
     static let shadowOffsetBottom3 = CGSize(width: 0, height: 12)
