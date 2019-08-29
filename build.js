@@ -121,9 +121,23 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'color/sixDigitsToThreeDigits',
+  type: 'value',
+  matcher: isColor,
+  transformer: function(prop) {
+    const hexValue = prop.value.substr(1);
+    if (hexValue.split('').every(char => char === hexValue[0])) {
+      return prop.value.substr(0, prop.value.length-3);
+    } else {
+      return prop.value;
+    }
+  }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab"]
+  transforms: ["attribute/cti", "name/cti/kebab", "color/sixDigitsToThreeDigits"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({
