@@ -5,8 +5,8 @@ const Color = require('tinycolor2');
 function getStyleDictionaryConfig(platform) {
   return {
     "source": [
-      "src/properties/globals/**/*.json",
-      `src/properties/platforms/${platform}/**/*.json`
+      "properties/globals/**/*.json",
+      `properties/platforms/${platform}/**/*.json`
     ],
     "platforms": {
       "web": {

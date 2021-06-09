@@ -1,0 +1,15 @@
+{
+  "weight": {
+    "font": {
+      "bold": {
+        "value": "800"
+      },
+      "semibold": {
+        "value": "600"
+      },
+      "regular": {
+        "value": "400"
+      }
+    }
+  }
+}

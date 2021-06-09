@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/getninjas/niten-tokens#readme",
   "devDependencies": {
-    "style-dictionary": "^2.8.1"
+    "style-dictionary": "^2.10.3"
   },
   "bin": {
     "niten": "./bin/index.js"

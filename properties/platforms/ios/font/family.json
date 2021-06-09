@@ -1,7 +1,10 @@
 {
   "font": {
     "family": {
-      "default": {
+      "display": {
+        "value": "\"SourceSansPro-Regular\""
+      },
+      "normal": {
         "value": "\"SourceSansPro-Regular\""
       }
     }
