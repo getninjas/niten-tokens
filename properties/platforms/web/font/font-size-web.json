@@ -1,0 +1,45 @@
+{
+  "size": {
+    "font": {
+      "huge": {
+      "value": "4rem"
+      },
+      "7xl": {
+      "value": "3.5rem"
+      },
+      "6xl": {
+        "value": "3rem"
+      },
+      "5xl": {
+        "value": "2.5rem"
+      },
+      "4xl-a": {
+        "value": "2.286rem"
+      },
+      "3xl": {
+        "value": "2rem"
+      },
+      "2xl-a": {
+        "value": "1.714rem"
+      },
+      "xl-a": {
+        "value": "1.5rem"
+      },
+      "l": {
+        "value": "1.286rem"
+      },
+      "m": {
+        "value": "1.143rem"
+      },
+      "base": {
+        "value": "1rem"
+      },
+      "s": {
+        "value": "0.875rem"
+      },
+      "xs": {
+        "value": "0.75rem"
+      }
+    }
+  }
+}

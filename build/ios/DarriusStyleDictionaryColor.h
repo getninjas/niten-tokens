@@ -3,7 +3,7 @@
 // DarriusStyleDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Mon, 07 Jun 2021 01:51:30 GMT
+// Generated on Mon, 14 Jun 2021 15:16:57 GMT
 //
 
 #import <UIKit/UIKit.h>

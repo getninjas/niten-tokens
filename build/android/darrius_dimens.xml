@@ -2,35 +2,34 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 07 Jun 2021 01:51:30 GMT
+  Generated on Mon, 14 Jun 2021 16:18:30 GMT
 -->
 <resources>
-  <dimen name="size_border_radius_circle">800.00dp</dimen>
-  <dimen name="size_border_radius_pill">2560.00dp</dimen>
-  <dimen name="size_border_radius_none">0.00dp</dimen>
-  <dimen name="size_border_radius_s">64.00dp</dimen>
-  <dimen name="size_border_radius_m">128.00dp</dimen>
-  <dimen name="size_border_radius_l">256.00dp</dimen>
-  <dimen name="size_border_width_none">0.00dp</dimen>
-  <dimen name="size_border_width_thin">16.00dp</dimen>
-  <dimen name="size_border_width_thick">32.00dp</dimen>
-  <dimen name="size_spacing_100">128.00dp</dimen>
-  <dimen name="size_spacing_200">192.00dp</dimen>
-  <dimen name="size_spacing_300">256.00dp</dimen>
-  <dimen name="size_spacing_400">320.00dp</dimen>
-  <dimen name="size_spacing_500">384.00dp</dimen>
-  <dimen name="size_spacing_600">448.00dp</dimen>
-  <dimen name="size_spacing_700">512.00dp</dimen>
-  <dimen name="size_spacing_800">576.00dp</dimen>
-  <dimen name="size_spacing_900">640.00dp</dimen>
-  <dimen name="size_spacing_1000">768.00dp</dimen>
-  <dimen name="size_spacing_1100">896.00dp</dimen>
-  <dimen name="size_spacing_1200">1024.00dp</dimen>
-  <dimen name="size_spacing_1300">1152.00dp</dimen>
-  <dimen name="size_spacing_1400">1280.00dp</dimen>
-  <dimen name="size_spacing_1500">1408.00dp</dimen>
-  <dimen name="size_spacing_1600">1536.00dp</dimen>
-  <dimen name="size_spacing_1700">1984.00dp</dimen>
-  <dimen name="size_spacing_1800">2368.00dp</dimen>
+  <dimen name="size_border_radius_none">0dp</dimen>
+  <dimen name="size_border_radius_s">4dp</dimen>
+  <dimen name="size_border_radius_m">8dp</dimen>
+  <dimen name="size_border_radius_l">16dp</dimen>
+  <dimen name="size_border_radius_pill">500dp</dimen>
+  <dimen name="size_border_width_none">0dp</dimen>
+  <dimen name="size_border_width_thin">1dp</dimen>
+  <dimen name="size_border_width_thick">2dp</dimen>
+  <dimen name="size_spacing_100">8dp</dimen>
+  <dimen name="size_spacing_200">12dp</dimen>
+  <dimen name="size_spacing_300">16dp</dimen>
+  <dimen name="size_spacing_400">20dp</dimen>
+  <dimen name="size_spacing_500">24dp</dimen>
+  <dimen name="size_spacing_600">28dp</dimen>
+  <dimen name="size_spacing_700">32dp</dimen>
+  <dimen name="size_spacing_800">36dp</dimen>
+  <dimen name="size_spacing_900">40dp</dimen>
+  <dimen name="size_spacing_1000">48dp</dimen>
+  <dimen name="size_spacing_1100">56dp</dimen>
+  <dimen name="size_spacing_1200">64dp</dimen>
+  <dimen name="size_spacing_1300">72dp</dimen>
+  <dimen name="size_spacing_1400">80dp</dimen>
+  <dimen name="size_spacing_1500">88dp</dimen>
+  <dimen name="size_spacing_1600">96dp</dimen>
+  <dimen name="size_spacing_1700">124dp</dimen>
+  <dimen name="size_spacing_1800">148dp</dimen>
   
 </resources>

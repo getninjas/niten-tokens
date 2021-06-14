@@ -13,6 +13,9 @@
         },
         "l": {
           "value": "16px"
+        },
+        "pill": {
+          "value": "500px"
         }
       },
       "width": {

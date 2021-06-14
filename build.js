@@ -13,30 +13,33 @@ function getStyleDictionaryConfig(platform) {
         "transformGroup": "custom/web",
         "buildPath": `build/web/`,
         "files": [{
-          "destination": "_niten-tokens.scss",
+          "destination": "darrius-tokens.scss",
           "format": "scss/variables"
+        },{
+          "destination": "darrius-tokens.css",
+          "format": "css/variables"
         }]
       },
       "ios": {
         "transformGroup": "custom/ios",
         "buildPath": "build/ios/",
         "files": [{
-          "destination": "NitenTokens.swift",
+          "destination": "DarriusTokens.swift",
           "format": "ios-swift/class.swift",
-          "className": "NitenTokens",
+          "className": "DarriusTokens",
         }]
       },
       "android": {
         "transformGroup": "custom/android",
         "buildPath": "build/android/",
         "files": [{
-          "destination": "niten_colors.xml",
+          "destination": "darrius_colors.xml",
           "format": "android/colors"
         },{
-          "destination": "niten_font_dimens.xml",
+          "destination": "darrius_font_dimens.xml",
           "format": "android/fontDimens"
         },{
-          "destination": "niten_dimens.xml",
+          "destination": "darrius_dimens.xml",
           "format": "android/dimens"
         }]
       },
@@ -137,7 +140,7 @@ StyleDictionaryPackage.registerTransform({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", "color/sixDigitsToThreeDigits"]
+  transforms: ["attribute/cti", "name/cti/kebab", "color/css", "size/px"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({
@@ -147,7 +150,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/android',
-  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp"]
+  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp", "size/sp"]
 });
 
 ['web', 'ios', 'android'].map(function (platform) {

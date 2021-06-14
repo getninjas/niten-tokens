@@ -1,15 +1,15 @@
 
 //
-// NitenTokens.swift
+// DarriusTokens.swift
 //
 // Do not edit directly
-// Generated on Tue, 08 Jun 2021 17:44:39 GMT
+// Generated on Mon, 14 Jun 2021 16:18:30 GMT
 //
 
 
 import UIKit
 
-public class NitenTokens {
+public class DarriusTokens {
     public static let colorAction100 = UIColor(red: 0.92, green: 0.97, blue: 1.00, alpha: 1)
     public static let colorAction200 = UIColor(red: 0.80, green: 0.93, blue: 1.00, alpha: 1)
     public static let colorAction300 = UIColor(red: 0.60, green: 0.84, blue: 1.00, alpha: 1)
@@ -98,31 +98,36 @@ public class NitenTokens {
     public static let opacityHeavy = .8
     public static let opacityLight = .35
     public static let opacityMedium = .6
-    public static let shadowOffsetBottom1 = CGSize(width: 0, height: 2)
-    public static let shadowOffsetBottom2 = CGSize(width: 0, height: 4)
-    public static let shadowOffsetBottom3 = CGSize(width: 0, height: 12)
-    public static let shadowOffsetTop1 = CGSize(width: 0, height: -2)
-    public static let shadowOffsetTop2 = CGSize(width: 0, height: -4)
-    public static let shadowOffsetTop3 = CGSize(width: 0, height: -12)
-    public static let shadowRadius1 = CGFloat(4.00)
-    public static let shadowRadius2 = CGFloat(12.00)
-    public static let shadowRadius3 = CGFloat(24.00)
-    public static let sizeBorderRadiusCircle = CGFloat(50.00)
+    public static let shadowOffsetBottom1 = CGSize(width: 0, height: 4)
+    public static let shadowOffsetBottom2 = CGSize(width: 0, height: 15)
+    public static let shadowOffsetBottom3 = CGSize(width: 0, height: 20)
+    public static let shadowOffsetTop1 = CGSize(width: 0, height: -4)
+    public static let shadowOffsetTop2 = CGSize(width: 0, height: -15)
+    public static let shadowOffsetTop3 = CGSize(width: 0, height: -20)
+    public static let shadowRadius1 = CGFloat(6.00)
+    public static let shadowRadius2 = CGFloat(20.00)
+    public static let shadowRadius3 = CGFloat(50.00)
     public static let sizeBorderRadiusL = CGFloat(16.00)
     public static let sizeBorderRadiusM = CGFloat(8.00)
     public static let sizeBorderRadiusNone = CGFloat(0.00)
-    public static let sizeBorderRadiusPill = CGFloat(160.00)
+    public static let sizeBorderRadiusPill = CGFloat(500.00)
     public static let sizeBorderRadiusS = CGFloat(4.00)
     public static let sizeBorderWidthNone = CGFloat(0.00)
     public static let sizeBorderWidthThick = CGFloat(2.00)
     public static let sizeBorderWidthThin = CGFloat(1.00)
-    public static let sizeFontL = CGFloat(32.00)
-    public static let sizeFontM = CGFloat(24.00)
-    public static let sizeFontS = CGFloat(20.00)
-    public static let sizeFontXl = CGFloat(48.00)
-    public static let sizeFontXs = CGFloat(16.00)
-    public static let sizeFontXxl = CGFloat(60.00)
-    public static let sizeFontXxs = CGFloat(14.00)
+    public static let sizeFont2XlA = CGFloat(24.00)
+    public static let sizeFont3Xl = CGFloat(28.00)
+    public static let sizeFont4XlA = CGFloat(32.00)
+    public static let sizeFont5Xl = CGFloat(35.00)
+    public static let sizeFont6Xl = CGFloat(42.00)
+    public static let sizeFont7Xl = CGFloat(49.00)
+    public static let sizeFontBase = CGFloat(14.00)
+    public static let sizeFontHuge = CGFloat(56.00)
+    public static let sizeFontL = CGFloat(18.00)
+    public static let sizeFontM = CGFloat(16.00)
+    public static let sizeFontS = CGFloat(12.25)
+    public static let sizeFontXlA = CGFloat(21.00)
+    public static let sizeFontXs = CGFloat(10.50)
     public static let sizeSpacing100 = CGFloat(8.00)
     public static let sizeSpacing1000 = CGFloat(48.00)
     public static let sizeSpacing1100 = CGFloat(56.00)
