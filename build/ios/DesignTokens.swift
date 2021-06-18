@@ -1,15 +1,15 @@
 
 //
-// DarriusTokens.swift
+// DesignTokens.swift
 //
 // Do not edit directly
-// Generated on Mon, 14 Jun 2021 16:18:30 GMT
+// Generated on Fri, 18 Jun 2021 13:30:07 GMT
 //
 
 
 import UIKit
 
-public class DarriusTokens {
+public class DesignTokens {
     public static let colorAction100 = UIColor(red: 0.92, green: 0.97, blue: 1.00, alpha: 1)
     public static let colorAction200 = UIColor(red: 0.80, green: 0.93, blue: 1.00, alpha: 1)
     public static let colorAction300 = UIColor(red: 0.60, green: 0.84, blue: 1.00, alpha: 1)

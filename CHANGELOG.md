@@ -19,6 +19,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 2.0.0 - 2021-08-06
 
 - Changed folder structure to present new build files
-- Added Darrius Tokens with new values and formats
+- Added new design tokens with new values and formats
 - Removed Niten Tokens
 

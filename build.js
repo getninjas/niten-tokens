@@ -13,10 +13,10 @@ function getStyleDictionaryConfig(platform) {
         "transformGroup": "custom/web",
         "buildPath": `build/web/`,
         "files": [{
-          "destination": "darrius-tokens.scss",
+          "destination": "design-tokens.scss",
           "format": "scss/variables"
         },{
-          "destination": "darrius-tokens.css",
+          "destination": "design-tokens.css",
           "format": "css/variables"
         }]
       },
@@ -24,22 +24,22 @@ function getStyleDictionaryConfig(platform) {
         "transformGroup": "custom/ios",
         "buildPath": "build/ios/",
         "files": [{
-          "destination": "DarriusTokens.swift",
+          "destination": "DesignTokens.swift",
           "format": "ios-swift/class.swift",
-          "className": "DarriusTokens",
+          "className": "DesignTokens",
         }]
       },
       "android": {
         "transformGroup": "custom/android",
         "buildPath": "build/android/",
         "files": [{
-          "destination": "darrius_colors.xml",
+          "destination": "tokens_colors.xml",
           "format": "android/colors"
         },{
-          "destination": "darrius_font_dimens.xml",
+          "destination": "tokens_font_dimens.xml",
           "format": "android/fontDimens"
         },{
-          "destination": "darrius_dimens.xml",
+          "destination": "tokens_dimens.xml",
           "format": "android/dimens"
         }]
       },
