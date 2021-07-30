@@ -140,7 +140,7 @@ StyleDictionaryPackage.registerTransform({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", "color/css", "size/px"]
+  transforms: ["attribute/cti", "name/cti/kebab", "color/css", "size/rem"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({

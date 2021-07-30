@@ -3,7 +3,7 @@
 // DesignTokens.swift
 //
 // Do not edit directly
-// Generated on Fri, 23 Jul 2021 19:50:42 GMT
+// Generated on Fri, 30 Jul 2021 19:29:24 GMT
 //
 
 
