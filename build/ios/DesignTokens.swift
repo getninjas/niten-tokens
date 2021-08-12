@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 12 Aug 2021 13:33:29 GMT
+// Generated on Thu, 12 Aug 2021 17:36:01 GMT
 
 
 import UIKit
@@ -95,6 +95,9 @@ public class DesignTokens {
     public static let fontLineHeightStrict = 120%
     public static let fontLineHeightWide = 175%
     public static let fontStyleQuote = "SourceSansPro-Italic"
+    public static let fontWeightBold = 800
+    public static let fontWeightRegular = 400
+    public static let fontWeightSemibold = 600
     public static let opacityHeavy = .8
     public static let opacityLight = .35
     public static let opacityMedium = .6
@@ -115,9 +118,11 @@ public class DesignTokens {
     public static let sizeBorderWidthNone = CGFloat(0.00)
     public static let sizeBorderWidthThick = CGFloat(2.00)
     public static let sizeBorderWidthThin = CGFloat(1.00)
-    public static let sizeFont2Xl = CGFloat(24.00)
+    public static let sizeFont2Xl = CGFloat(1.71)
+    public static let sizeFont2XlA = CGFloat(24.00)
     public static let sizeFont3Xl = CGFloat(28.00)
-    public static let sizeFont4Xl = CGFloat(32.00)
+    public static let sizeFont4Xl = CGFloat(2.29)
+    public static let sizeFont4XlA = CGFloat(32.00)
     public static let sizeFont5Xl = CGFloat(36.00)
     public static let sizeFont6Xl = CGFloat(42.00)
     public static let sizeFont7Xl = CGFloat(48.00)
@@ -126,8 +131,9 @@ public class DesignTokens {
     public static let sizeFontL = CGFloat(18.00)
     public static let sizeFontM = CGFloat(16.00)
     public static let sizeFontS = CGFloat(12.00)
-    public static let sizeFontXl = CGFloat(21.00)
-    public static let sizeFontXs = CGFloat(8.00)
+    public static let sizeFontXl = CGFloat(1.50)
+    public static let sizeFontXlA = CGFloat(20.00)
+    public static let sizeFontXs = CGFloat(10.00)
     public static let sizeSpacingInline100 = CGFloat(8.00)
     public static let sizeSpacingInline1000 = CGFloat(48.00)
     public static let sizeSpacingInline1100 = CGFloat(56.00)
@@ -180,7 +186,4 @@ public class DesignTokens {
     public static let sizeSpacingStack700 = CGFloat(32.00)
     public static let sizeSpacingStack800 = CGFloat(36.00)
     public static let sizeSpacingStack900 = CGFloat(40.00)
-    public static let weightFontBold = 800
-    public static let weightFontRegular = 400
-    public static let weightFontSemibold = 600
 }
