@@ -5,13 +5,13 @@
       "value": "56px"
       },
       "7xl": {
-      "value": "49px"
+      "value": "48px"
       },
       "6xl": {
         "value": "42px"
       },
       "5xl": {
-        "value": "35px"
+        "value": "36px"
       },
       "4xl-a": {
         "value": "32px"
@@ -23,7 +23,7 @@
         "value": "24px"
       },
       "xl-a": {
-        "value": "21px"
+        "value": "20px"
       },
       "l": {
         "value": "18px"
@@ -35,10 +35,10 @@
         "value": "14px"
       },
       "s": {
-        "value": "12.25px"
+        "value": "12px"
       },
       "xs": {
-        "value": "10.5px"
+        "value": "10px"
       }
     }
   }

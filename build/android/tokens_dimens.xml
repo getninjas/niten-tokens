@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 30 Jul 2021 19:29:24 GMT
+  Generated on Thu, 12 Aug 2021 13:33:29 GMT
 -->
 <resources>
   <dimen name="size_border_radius_none">0dp</dimen>
@@ -13,23 +13,57 @@
   <dimen name="size_border_width_none">0dp</dimen>
   <dimen name="size_border_width_thin">1dp</dimen>
   <dimen name="size_border_width_thick">2dp</dimen>
-  <dimen name="size_spacing_100">8dp</dimen>
-  <dimen name="size_spacing_200">12dp</dimen>
-  <dimen name="size_spacing_300">16dp</dimen>
-  <dimen name="size_spacing_400">20dp</dimen>
-  <dimen name="size_spacing_500">24dp</dimen>
-  <dimen name="size_spacing_600">28dp</dimen>
-  <dimen name="size_spacing_700">32dp</dimen>
-  <dimen name="size_spacing_800">36dp</dimen>
-  <dimen name="size_spacing_900">40dp</dimen>
-  <dimen name="size_spacing_1000">48dp</dimen>
-  <dimen name="size_spacing_1100">56dp</dimen>
-  <dimen name="size_spacing_1200">64dp</dimen>
-  <dimen name="size_spacing_1300">72dp</dimen>
-  <dimen name="size_spacing_1400">80dp</dimen>
-  <dimen name="size_spacing_1500">88dp</dimen>
-  <dimen name="size_spacing_1600">96dp</dimen>
-  <dimen name="size_spacing_1700">124dp</dimen>
-  <dimen name="size_spacing_1800">148dp</dimen>
+  <dimen name="size_spacing_stack_100">8dp</dimen>
+  <dimen name="size_spacing_stack_200">12dp</dimen>
+  <dimen name="size_spacing_stack_300">16dp</dimen>
+  <dimen name="size_spacing_stack_400">20dp</dimen>
+  <dimen name="size_spacing_stack_500">24dp</dimen>
+  <dimen name="size_spacing_stack_600">28dp</dimen>
+  <dimen name="size_spacing_stack_700">32dp</dimen>
+  <dimen name="size_spacing_stack_800">36dp</dimen>
+  <dimen name="size_spacing_stack_900">40dp</dimen>
+  <dimen name="size_spacing_stack_1000">48dp</dimen>
+  <dimen name="size_spacing_stack_1100">56dp</dimen>
+  <dimen name="size_spacing_stack_1200">64dp</dimen>
+  <dimen name="size_spacing_stack_1300">72dp</dimen>
+  <dimen name="size_spacing_stack_1400">80dp</dimen>
+  <dimen name="size_spacing_stack_1500">88dp</dimen>
+  <dimen name="size_spacing_inline_100">8dp</dimen>
+  <dimen name="size_spacing_inline_200">12dp</dimen>
+  <dimen name="size_spacing_inline_300">16dp</dimen>
+  <dimen name="size_spacing_inline_400">21dp</dimen>
+  <dimen name="size_spacing_inline_500">24dp</dimen>
+  <dimen name="size_spacing_inline_600">28dp</dimen>
+  <dimen name="size_spacing_inline_700">32dp</dimen>
+  <dimen name="size_spacing_inline_800">36dp</dimen>
+  <dimen name="size_spacing_inline_900">40dp</dimen>
+  <dimen name="size_spacing_inline_1000">48dp</dimen>
+  <dimen name="size_spacing_inline_1100">56dp</dimen>
+  <dimen name="size_spacing_inline_1200">64dp</dimen>
+  <dimen name="size_spacing_inline_1300">72dp</dimen>
+  <dimen name="size_spacing_inline_1400">80dp</dimen>
+  <dimen name="size_spacing_inset_square_100">8dp 8dp</dimen>
+  <dimen name="size_spacing_inset_square_200">12dp 12dp</dimen>
+  <dimen name="size_spacing_inset_square_300">16dp 16dp</dimen>
+  <dimen name="size_spacing_inset_square_400">21dp 20dp</dimen>
+  <dimen name="size_spacing_inset_square_500">24dp 24dp</dimen>
+  <dimen name="size_spacing_inset_square_600">28dp 28dp</dimen>
+  <dimen name="size_spacing_inset_square_700">32dp 32dp</dimen>
+  <dimen name="size_spacing_inset_square_800">36dp 36dp</dimen>
+  <dimen name="size_spacing_inset_square_900">40dp 40dp</dimen>
+  <dimen name="size_spacing_inset_square_1000">48dp 48dp</dimen>
+  <dimen name="size_spacing_inset_square_1100">56dp 56dp</dimen>
+  <dimen name="size_spacing_inset_square_1200">64dp 64dp</dimen>
+  <dimen name="size_spacing_inset_squish_100">24dp 12dp</dimen>
+  <dimen name="size_spacing_inset_squish_200">24dp 16dp</dimen>
+  <dimen name="size_spacing_inset_squish_300">24dp 20dp</dimen>
+  <dimen name="size_spacing_inset_squish_400">28dp 16dp</dimen>
+  <dimen name="size_spacing_inset_squish_500">28dp 20dp</dimen>
+  <dimen name="size_spacing_inset_squish_600">64dp 20dp</dimen>
+  <dimen name="size_spacing_inset_stretch_100">16dp 24dp</dimen>
+  <dimen name="size_spacing_inset_stretch_200">21dp 24dp</dimen>
+  <dimen name="size_spacing_inset_stretch_300">21dp 28dp</dimen>
+  <dimen name="size_spacing_inset_stretch_400">24dp 28dp</dimen>
+  <dimen name="size_spacing_inset_stretch_500">24dp 36dp</dimen>
   
 </resources>

@@ -3,7 +3,7 @@
     "border": {
       "radius": {
         "none": {
-          "value": "0"
+          "value": "0px"
         },
         "s": {
           "value": "4px"
@@ -20,7 +20,7 @@
       },
       "width": {
         "none": {
-          "value": "0"
+          "value": "0px"
         },
         "thin": {
           "value": "1px"

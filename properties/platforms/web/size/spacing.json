@@ -1,0 +1,54 @@
+{
+  "size": {
+    "spacing": {
+      "stack-fluid": { 
+        "100": {
+          "value": "0.57rem",
+          "category": "size"
+        },
+        "200": {
+          "value": "1rem"
+        },
+        "300": {
+          "value": "1.143rem"
+        },
+        "400": {
+          "value": "1.286rem"
+        },
+        "500": {
+          "value": "1.5rem"
+        },
+        "600": {
+          "value": "1.714rem"
+        },
+        "700": {
+          "value": "2rem"
+        },
+        "800": {
+          "value": "2.286rem"
+        },
+        "900": {
+          "value": "3rem"
+        },
+        "1000": {
+          "value": "3.5rem"
+        },
+        "1100": {
+          "value": "4rem"
+        },
+        "1200": {
+          "value": "4.5rem"
+        },
+        "1300": {
+          "value": "5rem"
+        },
+        "1400": {
+          "value": "6rem"
+        },
+        "1500": {
+          "value": "7rem"
+        }
+      }
+    }
+  }
+}

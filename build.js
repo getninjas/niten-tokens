@@ -1,6 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 const _ = require('lodash');
 const Color = require('tinycolor2');
+const { size } = require('lodash');
 
 function getStyleDictionaryConfig(platform) {
   return {
@@ -14,14 +15,21 @@ function getStyleDictionaryConfig(platform) {
         "buildPath": `build/web/`,
         "files": [{
           "destination": "design-tokens.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
         },{
           "destination": "design-tokens.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+          "outputReferences": true
+        }
         }]
       },
       "ios": {
         "transformGroup": "custom/ios",
+        "basePxFontSize": 14,
         "buildPath": "build/ios/",
         "files": [{
           "destination": "DesignTokens.swift",
@@ -31,6 +39,7 @@ function getStyleDictionaryConfig(platform) {
       },
       "android": {
         "transformGroup": "custom/android",
+        "basePxFontSize": 14,
         "buildPath": "build/android/",
         "files": [{
           "destination": "tokens_colors.xml",
@@ -52,6 +61,10 @@ function isOffset(prop) {
 }
 
 function isSize(prop) {
+  return prop.attributes.category === 'size';
+}
+
+function isFontSize (prop) {
   return prop.attributes.category === 'size';
 }
 
@@ -81,6 +94,15 @@ StyleDictionaryPackage.registerTransform({
   type: 'name',
   transformer: function(prop, options) {
     return _.camelCase([options.prefix].concat(prop.path).join(' '));
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'size/rem',
+  type: 'value',
+  matcher: isFontSize,
+  transformer: function (prop) {
+    return `rem(${(parseFloat(prop.value, 10)).toFixed(2)})`;
   }
 });
 
@@ -116,7 +138,7 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'size/dp',
+  name: 'size/compose/remToDp',
   type: 'value',
   matcher: isSize,
   transformer: function(prop) {
@@ -140,7 +162,7 @@ StyleDictionaryPackage.registerTransform({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", "color/css", "size/rem"]
+  transforms: ["attribute/cti", "name/cti/kebab", "color/css", "size/px"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({
@@ -150,7 +172,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/android',
-  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp", "size/sp"]
+  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/compose/remToDp", "size/compose/remToSp"]
 });
 
 ['web', 'ios', 'android'].map(function (platform) {
