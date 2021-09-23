@@ -90,11 +90,11 @@
           },
           "1400": {
             "value": "80px"
-          },
+          }
+        },
         "stack-fluid": { 
           "100": {
-            "value": "0.57rem",
-            "category": "size"
+            "value": "0.57rem"
           },
           "200": {
             "value": "1rem"
@@ -197,22 +197,21 @@
             "value": "{size.spacing.stack.400.value} {size.spacing.inline.800.value}"
           }
         },
-        "inset-stretch": {
-          "100": {
-            "value": "{size.spacing.stack.500.value} {size.spacing.inline.300.value}"
-          },
-          "200": {
-            "value": "{size.spacing.stack.500.value} {size.spacing.inline.400.value}"
-          },
-          "300": {
-            "value": "{size.spacing.stack.600.value} {size.spacing.inline.400.value}"
-          },
-          "400": {
-            "value": "{size.spacing.stack.600.value} {size.spacing.inline.500.value}"
-          },
-          "500": {
-            "value": "{size.spacing.stack.800.value} {size.spacing.inline.500.value}"
-          }
+      "inset-stretch": {
+        "100": {
+          "value": "{size.spacing.stack.500.value} {size.spacing.inline.300.value}"
+        },
+        "200": {
+          "value": "{size.spacing.stack.500.value} {size.spacing.inline.400.value}"
+        },
+        "300": {
+          "value": "{size.spacing.stack.600.value} {size.spacing.inline.400.value}"
+        },
+        "400": {
+          "value": "{size.spacing.stack.600.value} {size.spacing.inline.500.value}"
+        },
+        "500": {
+          "value": "{size.spacing.stack.800.value} {size.spacing.inline.500.value}"
         }
       }
     }
