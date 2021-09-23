@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 12 Aug 2021 17:36:01 GMT
+  Generated on Fri, 17 Sep 2021 18:51:48 GMT
 -->
 <resources>
   <color name="color_brand_100">#fffeee</color>
@@ -71,6 +71,7 @@
   <color name="color_highlight_700">#56289e</color>
   <color name="color_highlight_800">#371963</color>
   <color name="color_highlight_900">#210f3d</color>
+  <color name="color_alias_shadows">#0a215e</color>
   <color name="color_alias_background_01">#f0f2f5</color>
   <color name="color_alias_background_02">#ffffff</color>
   <color name="color_alias_border_01">#f0f2f5</color>

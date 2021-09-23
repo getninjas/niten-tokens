@@ -220,9 +220,6 @@
       }
     },
     "alias": {
-      "shadows": {
-        "value": "{color.action.900.value}"
-      },
       "background-01": {
         "value": "{color.neutral-light.300.value}"
       },

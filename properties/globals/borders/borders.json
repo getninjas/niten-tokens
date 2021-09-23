@@ -12,10 +12,10 @@
           "value": "8px"
         },
         "l": {
-          "value": "16px"
+          "value": "10px"
         },
         "pill": {
-          "value": "500px"
+          "value": "32px"
         }
       },
       "width": {
@@ -27,6 +27,9 @@
         },
         "thick": {
           "value": "2px"
+        },
+        "heavy": {
+          "value": "4px"
         }
       }
     }

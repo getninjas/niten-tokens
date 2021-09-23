@@ -13,16 +13,16 @@
       "5xl": {
         "value": "36px"
       },
-      "4xl-a": {
+      "4xl": {
         "value": "32px"
       },
       "3xl": {
         "value": "28px"
       },
-      "2xl-a": {
+      "2xl": {
         "value": "24px"
       },
-      "xl-a": {
+      "xl": {
         "value": "20px"
       },
       "l": {

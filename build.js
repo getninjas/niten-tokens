@@ -1,7 +1,6 @@
 const StyleDictionaryPackage = require('style-dictionary');
 const _ = require('lodash');
 const Color = require('tinycolor2');
-const { size } = require('lodash');
 
 function getStyleDictionaryConfig(platform) {
   return {
@@ -29,12 +28,68 @@ function getStyleDictionaryConfig(platform) {
       },
       "ios": {
         "transformGroup": "custom/ios",
-        "basePxFontSize": 14,
         "buildPath": "build/ios/",
         "files": [{
-          "destination": "DesignTokens.swift",
+          "destination": "DesignTokensColors.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokensColors",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },{
+          "destination": "DesignTokensBorder.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokensBorder",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size",
+              "type": "border"
+            }
+          }
+        },{
+          "destination": "DesignTokensFontSize.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokensFontSize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size",
+              "type": "font"
+            }
+          }
+        },{
+          "destination": "DesignTokensSpacings.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokensSpacings",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size",
+              "type": "global"
+            }
+          }
+        },{
+          "destination": "DesignTokensFont.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokensFont",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "font"
+            }
+          }
+        },{
+          "destination": "DesignTokensShadows.swift",
           "format": "ios-swift/class.swift",
-          "className": "DesignTokens",
+          "className": "DesignTokensShadows",
+          "filter": {
+            "attributes": {
+              "category": "shadow"
+            }
+          }
         }]
       },
       "android": {
@@ -90,14 +145,6 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'name/ti/camel',
-  type: 'name',
-  transformer: function(prop, options) {
-    return _.camelCase([options.prefix].concat(prop.path).join(' '));
-  }
-});
-
-StyleDictionaryPackage.registerTransform({
   name: 'size/rem',
   type: 'value',
   matcher: isFontSize,
@@ -116,7 +163,7 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'color/UIColorSwift',
+  name: 'color/DesignSystemColor',
   type: 'value',
   matcher: isColor,
   transformer: function(prop) {
@@ -124,7 +171,7 @@ StyleDictionaryPackage.registerTransform({
     const rFixed = (r / 255.0).toFixed(2);
     const gFixed = (g / 255.0).toFixed(2);
     const bFixed = (b / 255.0).toFixed(2);
-    return `UIColor(red: ${rFixed}, green: ${gFixed}, blue: ${bFixed}, alpha: ${a})`;
+    return `DesignSystemColor (red: ${rFixed}, green: ${gFixed}, blue: ${bFixed}, alpha: ${a})`;
   }
 });
 
@@ -139,6 +186,15 @@ StyleDictionaryPackage.registerTransform({
 
 StyleDictionaryPackage.registerTransform({
   name: 'size/compose/remToDp',
+  type: 'value',
+  matcher: isSize,
+  transformer: function(prop) {
+    return parseFloat(prop.value, 10) + 'dp';
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'size/dp',
   type: 'value',
   matcher: isSize,
   transformer: function(prop) {
@@ -167,12 +223,12 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/ios',
-  transforms: ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "size/CGSize", "size/pxToCGFloat", "size/shadowRadiusToCGFloat"]
+  transforms: ["attribute/cti", "name/ti/camel", "color/DesignSystemColor", "size/CGSize", "size/pxToCGFloat", "size/shadowRadiusToCGFloat"]
 });
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'custom/android',
-  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/compose/remToDp", "size/compose/remToSp"]
+  transforms: ["attribute/cti", "name/cti/snake", "color/hex", "size/dp", "size/sp"]
 });
 
 ['web', 'ios', 'android'].map(function (platform) {

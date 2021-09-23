@@ -2,43 +2,43 @@
   "size": {
     "font": {
       "huge": {
-      "value": "56px"
+      "value": "4rem"
       },
       "7xl": {
-      "value": "48px"
+      "value": "3.5rem"
       },
       "6xl": {
-        "value": "42px"
+        "value": "3rem"
       },
       "5xl": {
-        "value": "36px"
+        "value": "2.5rem"
       },
       "4xl": {
-        "value": "32px"
+        "value": "2.286rem"
       },
       "3xl": {
-        "value": "28px"
+        "value": "2rem"
       },
       "2xl": {
-        "value": "24px"
+        "value": "1.714rem"
       },
       "xl": {
-        "value": "20px"
+        "value": "1.5rem"
       },
       "l": {
-        "value": "18px"
+        "value": "1.286rem"
       },
       "m": {
-        "value": "16px"
+        "value": "1.143rem"
       },
       "base": {
-        "value": "14px"
+        "value": "1rem"
       },
       "s": {
-        "value": "12px"
+        "value": "0.875rem"
       },
       "xs": {
-        "value": "10px"
+        "value": "0.75rem"
       }
     }
   }
