@@ -171,7 +171,7 @@ StyleDictionaryPackage.registerTransform({
     const rFixed = (r / 255.0).toFixed(2);
     const gFixed = (g / 255.0).toFixed(2);
     const bFixed = (b / 255.0).toFixed(2);
-    return `DesignSystemColor (red: ${rFixed}, green: ${gFixed}, blue: ${bFixed}, alpha: ${a})`;
+    return `DesignSystemColor(red: ${rFixed}, green: ${gFixed}, blue: ${bFixed}, alpha: ${a})`;
   }
 });
 
