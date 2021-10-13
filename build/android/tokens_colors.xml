@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 23 Sep 2021 23:25:18 GMT
+-->
+<resources>
+  <color name="color_brand_100">#fffeee</color>
+  <color name="color_brand_200">#fffbd0</color>
+  <color name="color_brand_300">#fff69e</color>
+  <color name="color_brand_400">#ffef71</color>
+  <color name="color_brand_500">#fde63e</color>
+  <color name="color_brand_600">#ffd426</color>
+  <color name="color_brand_700">#f7be20</color>
+  <color name="color_brand_800">#eda909</color>
+  <color name="color_brand_900">#cf8404</color>
+  <color name="color_action_100">#eaf8ff</color>
+  <color name="color_action_200">#ccedff</color>
+  <color name="color_action_300">#99d6ff</color>
+  <color name="color_action_400">#37a6ff</color>
+  <color name="color_action_500">#0e73e8</color>
+  <color name="color_action_600">#005bdb</color>
+  <color name="color_action_700">#0845ad</color>
+  <color name="color_action_800">#063089</color>
+  <color name="color_action_900">#0a215e</color>
+  <color name="color_neutral_light_100">#ffffff</color>
+  <color name="color_neutral_light_200">#f6f8fa</color>
+  <color name="color_neutral_light_300">#f0f2f5</color>
+  <color name="color_neutral_light_400">#e1e6e9</color>
+  <color name="color_neutral_light_500">#c1cad0</color>
+  <color name="color_neutral_light_600">#b3bdc4</color>
+  <color name="color_neutral_dark_100">#81929f</color>
+  <color name="color_neutral_dark_200">#556476</color>
+  <color name="color_neutral_dark_300">#425063</color>
+  <color name="color_neutral_dark_400">#374052</color>
+  <color name="color_neutral_dark_500">#272e3b</color>
+  <color name="color_neutral_dark_600">#12151c</color>
+  <color name="color_positive_100">#ebfdf3</color>
+  <color name="color_positive_200">#aef3cb</color>
+  <color name="color_positive_300">#7ddea5</color>
+  <color name="color_positive_400">#4acb80</color>
+  <color name="color_positive_500">#00a854</color>
+  <color name="color_positive_600">#009646</color>
+  <color name="color_positive_700">#00803e</color>
+  <color name="color_positive_800">#006e35</color>
+  <color name="color_positive_900">#00572b</color>
+  <color name="color_negative_100">#ffeeee</color>
+  <color name="color_negative_200">#ffc2c2</color>
+  <color name="color_negative_300">#fb9292</color>
+  <color name="color_negative_400">#f96666</color>
+  <color name="color_negative_500">#ee4545</color>
+  <color name="color_negative_600">#d72727</color>
+  <color name="color_negative_700">#be2020</color>
+  <color name="color_negative_800">#9e0e0e</color>
+  <color name="color_negative_900">#750202</color>
+  <color name="color_warning_100">#fdf1dc</color>
+  <color name="color_warning_200">#ffd6a6</color>
+  <color name="color_warning_300">#ffbd6f</color>
+  <color name="color_warning_400">#ffa63d</color>
+  <color name="color_warning_500">#ff8a00</color>
+  <color name="color_warning_600">#e97000</color>
+  <color name="color_warning_700">#d65600</color>
+  <color name="color_warning_800">#c44800</color>
+  <color name="color_warning_900">#9c2f00</color>
+  <color name="color_highlight_100">#f3ebff</color>
+  <color name="color_highlight_200">#dac5fa</color>
+  <color name="color_highlight_300">#c8a3ff</color>
+  <color name="color_highlight_400">#ae7dfa</color>
+  <color name="color_highlight_500">#9050f2</color>
+  <color name="color_highlight_600">#6b34bf</color>
+  <color name="color_highlight_700">#56289e</color>
+  <color name="color_highlight_800">#371963</color>
+  <color name="color_highlight_900">#210f3d</color>
+  <color name="color_alias_shadows">#0a215e</color>
+  <color name="color_alias_background_01">#f0f2f5</color>
+  <color name="color_alias_background_02">#ffffff</color>
+  <color name="color_alias_border_01">#f0f2f5</color>
+  <color name="color_alias_border_02">#c1cad0</color>
+  <color name="color_alias_ilustrative_icon">#81929f</color>
+  <color name="color_alias_interactive_icon">#556476</color>
+  <color name="color_alias_text_heading">#272e3b</color>
+  <color name="color_alias_text_subheading">#374052</color>
+  <color name="color_alias_text_body">#425063</color>
+  <color name="color_alias_text_placeholder">#81929f</color>
+  <color name="color_alias_text_link">#0e73e8</color>
+  
+</resources>

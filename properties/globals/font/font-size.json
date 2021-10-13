@@ -1,0 +1,45 @@
+{
+  "size": {
+    "font": {
+      "huge": {
+      "value": "56px"
+      },
+      "7xl": {
+      "value": "48px"
+      },
+      "6xl": {
+        "value": "42px"
+      },
+      "5xl": {
+        "value": "36px"
+      },
+      "4xl": {
+        "value": "32px"
+      },
+      "3xl": {
+        "value": "28px"
+      },
+      "2xl": {
+        "value": "24px"
+      },
+      "xl": {
+        "value": "20px"
+      },
+      "l": {
+        "value": "18px"
+      },
+      "m": {
+        "value": "16px"
+      },
+      "base": {
+        "value": "14px"
+      },
+      "s": {
+        "value": "12px"
+      },
+      "xs": {
+        "value": "10px"
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@getninjas/niten-tokens",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Design System Tokens of GetNinjas",
   "main": "",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/getninjas/niten-tokens#readme",
   "devDependencies": {
-    "style-dictionary": "^2.8.1"
+    "style-dictionary": "^3.0.1"
   },
   "bin": {
     "niten": "./bin/index.js"

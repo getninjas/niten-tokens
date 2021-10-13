@@ -1,0 +1,37 @@
+{
+  "size": {
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0px"
+        },
+        "s": {
+          "value": "4px"
+        },
+        "m": {
+          "value": "8px"
+        },
+        "l": {
+          "value": "10px"
+        },
+        "pill": {
+          "value": "32px"
+        }
+      },
+      "width": {
+        "none": {
+          "value": "0px"
+        },
+        "thin": {
+          "value": "1px"
+        },
+        "thick": {
+          "value": "2px"
+        },
+        "heavy": {
+          "value": "4px"
+        }
+      }
+    }
+  }
+}

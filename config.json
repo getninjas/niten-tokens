@@ -1,0 +1,114 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "darrius_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+      "css": {
+          "transformGroup": "css",
+          "buildPath": "build/css/",
+          "files": [{
+            "destination": "darrius_variables.css",
+            "format": "css/variables"
+      }]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "build/android/",
+      "files": [{
+        "destination": "darrius_font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "darrius_colors.xml",
+        "format": "android/colors"
+      },{
+        "destination": "darrius_dimens.xml",
+        "format": "android/dimens"
+      }]
+    },
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "build/ios/",
+      "files": [{
+        "destination": "DarriusStyleDictionaryColor.h",
+        "format": "ios/colors.h",
+        "className": "StyleDictionaryColor",
+        "type": "StyleDictionaryColorName",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "DarriusStyleDictionaryColor.m",
+        "format": "ios/colors.m",
+        "className": "StyleDictionaryColor",
+        "type": "StyleDictionaryColorName",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "DarriusStyleDictionarySize.h",
+        "format": "ios/static.h",
+        "className": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },{
+        "destination": "DarriusStyleDictionarySize.m",
+        "format": "ios/static.m",
+        "className": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
+    },
+    "ios-swift": {
+      "transformGroup": "ios-swift",
+      "buildPath": "build/ios-swift/",
+      "files": [{
+        "destination": "DarriusStyleDictionary.swift",
+        "format": "ios-swift/class.swift",
+        "className": "StyleDictionary",
+        "filter": {}
+      }]
+    },
+    "ios-swift-separate-enums": {
+      "transformGroup": "ios-swift-separate",
+      "buildPath": "build/ios-swift/",
+      "files": [{
+        "destination": "DarriusStyleDictionaryColor.swift",
+        "format": "ios-swift/enum.swift",
+        "className": "StyleDictionaryColor",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "DarriusStyleDictionarySize.swift",
+        "format": "ios-swift/enum.swift",
+        "className": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
+    }
+  }
+}

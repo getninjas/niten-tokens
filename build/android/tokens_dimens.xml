@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 23 Sep 2021 23:25:18 GMT
+-->
+<resources>
+  <dimen name="size_border_radius_none">0dp</dimen>
+  <dimen name="size_border_radius_s">4dp</dimen>
+  <dimen name="size_border_radius_m">8dp</dimen>
+  <dimen name="size_border_radius_l">10dp</dimen>
+  <dimen name="size_border_radius_pill">32dp</dimen>
+  <dimen name="size_border_width_none">0dp</dimen>
+  <dimen name="size_border_width_thin">1dp</dimen>
+  <dimen name="size_border_width_thick">2dp</dimen>
+  <dimen name="size_border_width_heavy">4dp</dimen>
+  <dimen name="size_spacing_global_100">8dp</dimen>
+  <dimen name="size_spacing_global_200">12dp</dimen>
+  <dimen name="size_spacing_global_300">16dp</dimen>
+  <dimen name="size_spacing_global_400">20dp</dimen>
+  <dimen name="size_spacing_global_500">24dp</dimen>
+  <dimen name="size_spacing_global_600">28dp</dimen>
+  <dimen name="size_spacing_global_700">32dp</dimen>
+  <dimen name="size_spacing_global_800">36dp</dimen>
+  <dimen name="size_spacing_global_900">40dp</dimen>
+  <dimen name="size_spacing_global_1000">48dp</dimen>
+  <dimen name="size_spacing_global_1100">56dp</dimen>
+  <dimen name="size_spacing_global_1200">64dp</dimen>
+  <dimen name="size_spacing_global_1300">72dp</dimen>
+  <dimen name="size_spacing_global_1400">80dp</dimen>
+  <dimen name="size_spacing_global_1500">88dp</dimen>
+  
+</resources>

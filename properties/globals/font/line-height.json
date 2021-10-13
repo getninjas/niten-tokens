@@ -1,0 +1,21 @@
+{
+  "font": {
+    "line-height": {
+      "wide": {
+        "value": "175%"
+      },
+      "normal": {
+        "value": "150%"
+      },
+      "compact": {
+        "value": "130%"
+      },
+      "narrow": {
+        "value": "125%"
+      },
+      "strict": {
+        "value": "120%"
+      }
+    }
+  }
+}

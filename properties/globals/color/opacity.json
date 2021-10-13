@@ -1,0 +1,13 @@
+{
+  "opacity": {
+    "light": {
+      "value": ".35"
+    },
+    "medium": {
+      "value": ".6"
+    },
+    "heavy": {
+      "value": ".8"
+    }
+  }
+}
