@@ -4,12 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 21 Jul 2023 19:15:39 GMT
+// Generated on Fri, 21 Jul 2023 19:48:10 GMT
 
 
 import UIKit
 
-public enum DesignTokensColor {
+public class DesignTokensColor: UIColor {
     public static let action100 = UIColor(red: 0.918, green: 0.973, blue: 1.000, alpha: 1)
     public static let action200 = UIColor(red: 0.800, green: 0.929, blue: 1.000, alpha: 1)
     public static let action300 = UIColor(red: 0.600, green: 0.839, blue: 1.000, alpha: 1)

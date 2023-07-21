@@ -37,8 +37,8 @@
       "files": [
           {
               "destination": "DesignTokensColor.swift",
-              "format": "ios-swift/enum.swift",
-              "className": "DesignTokensColor",
+              "format": "ios-swift/class.swift",
+              "className": "DesignTokensColor: UIColor",
               "filter": {
                   "attributes": {
                       "category": "color"
