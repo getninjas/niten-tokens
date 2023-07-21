@@ -32,59 +32,20 @@
       }]
     },
     "ios": {
-      "transformGroup": "ios",
+      "transformGroup": "ios-swift-separate",
       "buildPath": "build/ios/",
-      "files": [{
-        "destination": "DarriusStyleDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
+      "files": [
+          {
+              "destination": "DesignTokensColor.swift",
+              "format": "ios-swift/enum.swift",
+              "className": "DesignTokensColor",
+              "filter": {
+                  "attributes": {
+                      "category": "color"
+                  }
+              }
           }
-        }
-      },{
-        "destination": "DarriusStyleDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "DarriusStyleDictionarySize.h",
-        "format": "ios/static.h",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      },{
-        "destination": "DarriusStyleDictionarySize.m",
-        "format": "ios/static.m",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      }]
-    },
-    "ios-swift": {
-      "transformGroup": "ios-swift",
-      "buildPath": "build/ios-swift/",
-      "files": [{
-        "destination": "DarriusStyleDictionary.swift",
-        "format": "ios-swift/class.swift",
-        "className": "StyleDictionary",
-        "filter": {}
-      }]
+      ]
     },
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
